@@ -1,0 +1,254 @@
+@using AplombTech.WMS.Domain.Motors
+@using AplombTech.WMS.Domain.Sensors
+@using NakedObjects.Facade.Utility;
+@using NakedObjects.Web.Mvc.Html
+@using AplombTech.WMS.QueryModel.Reports
+@model Summary
+@{
+    decimal flowSensorValue = 0;
+    decimal pressureSensorValue = 0;
+    decimal levelSensorValue = 0;
+    decimal energySensorValue = 0;
+    string cholorinationSensorValue = "On";
+    string motorValue = "On";
+    string BatteryVoltageValue = "On";
+    DateTime lastRecived = DateTime.MinValue;
+    bool fsactive = false;
+    bool psactive = false;
+    bool lsactive = false;
+    bool esactive = false;
+    bool csactive = false;
+    bool acpactive = false;
+    bool bvactive = false;
+}
+<div id="body">
+    <section class="main-content">
+        @(Html.TabbedHistory(Model))
+        <style>
+            th {
+                color: black !important;
+            }
+
+            .table tr:nth-child(even) {
+                background: #b8d1f3 !important;
+            }
+
+            .table tr:nth-child(odd) {
+                background: #dae5f4 !important;
+            }
+
+            table td img {
+                display: inline !important;
+            }
+        </style>
+        <br />
+        <div class="col-md-offset-1">
+            <div style="float: right; margin-bottom: 5px;">
+                @Html.ActionLink("Export to Excel", "ExportToExcel", new { })
+            </div>
+            <table class="table">
+                <tr>
+                    <th>
+
+                    </th>
+                    <th>
+                        <h3>Level</h3> <span>(meter)</span>
+                    </th>
+                    <th>
+                        <h3>Pressure</h3> <span>(bar)</span>
+                    </th>
+                    <th>
+                        <h3>Flow</h3> <span>(litre/min)</span>
+                    </th>
+                    <th>
+                        <h3>Energy</h3> <span>(kw)</span>
+                    </th>
+                    <th>
+                        <h3>Chlorination</h3> <span>(-)</span>
+                    </th>
+                    <th>
+                        <h3>Motor Status</h3> <span>(-)</span>
+                    </th>
+
+                    <th>
+                        <h3>Battery</h3> <span>(V)</span>
+                    </th>
+
+                    @*<th><h3>Active</h3></th>*@
+
+                    <th>
+                        <h3>Last Received</h3>
+                    </th>
+
+                    <th><h3>Active</h3></th>
+                </tr>
+                @foreach (var zone in Model.Zones)
+                {
+                    foreach (var dma in zone.DMAs)
+                    {
+
+                        <tr>
+                            <td>
+                                <h4>@dma.Name</h4>
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            @*<th>
+
+                                </th>*@
+                            <td></td>
+                        </tr>
+                        foreach (var pump in dma.PumpStations)
+                        {
+                            foreach (var motor in pump.Motors)
+                            {
+                                if (motor is PumpMotor)
+                                {
+                                    motorValue = motor.MotorStatus;
+                                }
+                            }
+                            foreach (var sensor in pump.Sensors)
+                            {
+                                if (sensor.LastDataReceived.HasValue)
+                                {
+                                    lastRecived = sensor.LastDataReceived.Value;
+
+                                }
+                                if (sensor is PressureSensor)
+                                {
+                                    pressureSensorValue = sensor.CurrentValue;
+                                    if (sensor.LastDataReceived.HasValue && sensor.LastDataReceived.Value.AddMinutes(1) > DateTime.Now)
+                                    {
+                                        psactive = true;
+                                    }
+                                    else
+                                    {
+                                        psactive = false;
+                                    }
+
+                                }
+
+                                if (sensor is EnergySensor)
+                                {
+                                    if (motorValue == "OFF")
+                                    {
+                                        energySensorValue = 0;
+                                    }
+
+                                    else
+                                    {
+                                        energySensorValue = ((EnergySensor)sensor).KwPerHourValue;
+
+                                    }
+                                    esactive = sensor.IsActive;
+                                }
+
+                                if (sensor is LevelSensor)
+                                {
+                                    levelSensorValue = sensor.CurrentValue;
+                                    lsactive = sensor.IsActive;
+                                }
+
+                                if (sensor is FlowSensor)
+                                {
+                                    flowSensorValue = ((FlowSensor)sensor).LitrePerMinuteValue;
+                                    fsactive = sensor.IsActive;
+                                }
+
+                                if (sensor is ChlorinePresenceDetector)
+                                {
+                                    cholorinationSensorValue = (sensor.CurrentValue > 0) ? "On" : "Off";
+                                    csactive = sensor.IsActive;
+                                }
+
+                                //if (sensor is ACPresenceDetector)
+                                //{
+                                //    motorValue = (sensor.CurrentValue > 0) ? "On" : "Off";
+                                //    acpactive = sensor.IsActive;
+                                //}
+
+                                if (sensor is BatteryVoltageDetector)
+                                {
+                                    BatteryVoltageValue = sensor.CurrentValue.ToString();
+                                    bvactive = sensor.IsActive;
+                                }
+                            }
+
+                            <tr>
+                                <td>
+                                    @pump.Name
+                                </td>
+                                <td>
+
+                                    <p>@levelSensorValue </p>
+                                </td>
+                                <td>
+
+                                    <p>@pressureSensorValue </p>
+
+                                </td>
+                                <td>
+
+                                    <p>@flowSensorValue </p>
+                                </td>
+                                <td>
+
+                                    <p>@energySensorValue </p>
+
+                                </td>
+                                <td>
+
+                                    <p>@cholorinationSensorValue </p>
+
+
+                                </td>
+                                <td>
+
+                                    <p>@motorValue </p>
+
+
+                                </td>
+                                <td>
+
+                                    <p>@BatteryVoltageValue </p>
+
+
+                                </td>
+
+                                @*<th>
+                                        OK
+                                    </th>*@
+                                <td>
+                                    @lastRecived
+                                </td>
+
+                                <td>
+                                    @if (@psactive)
+                                    {
+                                        <p><span><img src="~/Images/Icons/green.png" align="middle" /></span></p>
+                                    }
+                                    else
+                                    {
+                                        <p> <span><img src="~/Images/Icons/red.png" align="middle" /></span></p>
+                                    }
+                                </td>
+                            </tr>
+                            flowSensorValue = 0;
+                            pressureSensorValue = 0;
+                            levelSensorValue = 0;
+                            energySensorValue = 0;
+                            lastRecived = DateTime.MinValue;
+                        }
+                    }
+                }
+
+            </table>
+        </div>
+    </section>
+</div>

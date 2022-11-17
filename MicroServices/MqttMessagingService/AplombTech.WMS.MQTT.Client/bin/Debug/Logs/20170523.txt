@@ -1,0 +1,2 @@
+2017-05-23 09:48:16,655 [10] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener is going to start
+2017-05-23 09:48:55,672 [10] ERROR AplombTech.WMS.MQTT.Client.MqttClientService - Could not stablished connection to MQTT broker - Exception connecting to the broker

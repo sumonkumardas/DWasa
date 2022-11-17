@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="OGRGeoJSON" id="OGRGeoJSON">
+	<SimpleField name="_isDeleted" type="int"></SimpleField>
+	<SimpleField name="THANA" type="string"></SimpleField>
+	<SimpleField name="LOCATION" type="string"></SimpleField>
+	<SimpleField name="Shape_Leng" type="string"></SimpleField>
+	<SimpleField name="DMA_ID" type="string"></SimpleField>
+	<SimpleField name="Zone_ID" type="string"></SimpleField>
+	<SimpleField name="Package" type="string"></SimpleField>
+	<SimpleField name="Contractor" type="string"></SimpleField>
+	<SimpleField name="LastUpdate" type="string"></SimpleField>
+	<SimpleField name="Shape_Le_1" type="string"></SimpleField>
+	<SimpleField name="Shape_Area" type="string"></SimpleField>
+	<SimpleField name="AREA_M2" type="string"></SimpleField>
+	<SimpleField name="ZONE_" type="string"></SimpleField>
+	<SimpleField name="DENSITY_20" type="string"></SimpleField>
+	<SimpleField name="DENSITY_21" type="string"></SimpleField>
+	<SimpleField name="POP_2010" type="string"></SimpleField>
+	<SimpleField name="POP_2030" type="string"></SimpleField>
+	<SimpleField name="NET_DEMAND" type="string"></SimpleField>
+	<SimpleField name="NET_DEMA_1" type="string"></SimpleField>
+	<SimpleField name="PEAK_DEMAN" type="string"></SimpleField>
+	<SimpleField name="PEAK_DEM_1" type="string"></SimpleField>
+	<SimpleField name="LOSS_2010" type="string"></SimpleField>
+	<SimpleField name="LOSS_2030" type="string"></SimpleField>
+	<SimpleField name="TOTAL_DEMA" type="string"></SimpleField>
+	<SimpleField name="TOTAL_DE_1" type="string"></SimpleField>
+	<SimpleField name="ZPOP_NTKAR" type="string"></SimpleField>
+	<SimpleField name="ZPOP_NTK_1" type="string"></SimpleField>
+	<SimpleField name="REMARK_201" type="string"></SimpleField>
+	<SimpleField name="REMARK_203" type="string"></SimpleField>
+	<SimpleField name="PRESSURE" type="string"></SimpleField>
+	<SimpleField name="TARGET_DMA" type="string"></SimpleField>
+	<SimpleField name="BASE_DEMAN" type="string"></SimpleField>
+	<SimpleField name="DEM30_MLD" type="string"></SimpleField>
+	<SimpleField name="Z0__DEM30" type="string"></SimpleField>
+	<SimpleField name="Z0__DEM301" type="string"></SimpleField>
+	<SimpleField name="Z0__DEM20" type="string"></SimpleField>
+</Schema>
+<Folder><name>OGRGeoJSON</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_isDeleted">0</SimpleData>
+		<SimpleData name="THANA">Badda and Gulshan</SimpleData>
+		<SimpleData name="LOCATION">South, Middle and North Badda</SimpleData>
+		<SimpleData name="Shape_Leng">5.98438270314e+003</SimpleData>
+		<SimpleData name="DMA_ID">807</SimpleData>
+		<SimpleData name="Zone_ID">8</SimpleData>
+		<SimpleData name="Package">ICB 02.2</SimpleData>
+		<SimpleData name="Contractor">China First Metallurgical Group Corp. Ltd.</SimpleData>
+		<SimpleData name="LastUpdate">20151221</SimpleData>
+		<SimpleData name="Shape_Le_1">5.98438270314e+003</SimpleData>
+		<SimpleData name="Shape_Area">1.43889026259e+006</SimpleData>
+		<SimpleData name="AREA_M2">0</SimpleData>
+		<SimpleData name="ZONE_">8</SimpleData>
+		<SimpleData name="DENSITY_20">0.00000000000e+000</SimpleData>
+		<SimpleData name="DENSITY_21">0.00000000000e+000</SimpleData>
+		<SimpleData name="POP_2010">0.00000000000e+000</SimpleData>
+		<SimpleData name="POP_2030">0.00000000000e+000</SimpleData>
+		<SimpleData name="NET_DEMAND">0.00000000000e+000</SimpleData>
+		<SimpleData name="NET_DEMA_1">0.00000000000e+000</SimpleData>
+		<SimpleData name="PEAK_DEMAN">0.00000000000e+000</SimpleData>
+		<SimpleData name="PEAK_DEM_1">0.00000000000e+000</SimpleData>
+		<SimpleData name="LOSS_2010">0.00000000000e+000</SimpleData>
+		<SimpleData name="LOSS_2030">0.00000000000e+000</SimpleData>
+		<SimpleData name="TOTAL_DEMA">0.00000000000e+000</SimpleData>
+		<SimpleData name="TOTAL_DE_1">0.00000000000e+000</SimpleData>
+		<SimpleData name="ZPOP_NTKAR">0.00000000000e+000</SimpleData>
+		<SimpleData name="ZPOP_NTK_1">0.00000000000e+000</SimpleData>
+		<SimpleData name="REMARK_201"></SimpleData>
+		<SimpleData name="REMARK_203"></SimpleData>
+		<SimpleData name="PRESSURE">DMA</SimpleData>
+		<SimpleData name="TARGET_DMA"></SimpleData>
+		<SimpleData name="BASE_DEMAN">0.00000000000e+000</SimpleData>
+		<SimpleData name="DEM30_MLD">0.00000000000e+000</SimpleData>
+		<SimpleData name="Z0__DEM30">0.00000000000e+000</SimpleData>
+		<SimpleData name="Z0__DEM301">0.00000000000e+000</SimpleData>
+		<SimpleData name="Z0__DEM20">0.00000000000e+000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>90.4237060546875,23.768905639648438 90.4232177734375,23.76806640625 90.4228515625,23.768234252929688 90.42242431640625,23.768310546875 90.42181396484375,23.768539428710938 90.4207763671875,23.768692016601562 90.41900634765625,23.768707275390625 90.41656494140625,23.7691650390625 90.41571044921875,23.76898193359375 90.415771484375,23.769210815429688 90.415771484375,23.770126342773438 90.41546630859375,23.770416259765625 90.41546630859375,23.770919799804688 90.41546630859375,23.771896362304688 90.41583251953125,23.772079467773438 90.41619873046875,23.772109985351562 90.416259765625,23.772430419921875 90.416748046875,23.772705078125 90.4169921875,23.772994995117188 90.4173583984375,23.773117065429688 90.417724609375,23.773056030273438 90.41790771484375,23.7733154296875 90.4183349609375,23.774093627929688 90.418701171875,23.774948120117188 90.41900634765625,23.775588989257812 90.4193115234375,23.77630615234375 90.41949462890625,23.77679443359375 90.4197998046875,23.777359008789062 90.42010498046875,23.777999877929688 90.4200439453125,23.778472900390625 90.419921875,23.779220581054688 90.4197998046875,23.779861450195312 90.419677734375,23.780609130859375 90.419677734375,23.781234741210938 90.41986083984375,23.782684326171875 90.4200439453125,23.783172607421875 90.42022705078125,23.783859252929688 90.42034912109375,23.7841796875 90.42047119140625,23.784561157226562 90.42059326171875,23.784835815429688 90.420654296875,23.785064697265625 90.42071533203125,23.78533935546875 90.42083740234375,23.785720825195312 90.4210205078125,23.786117553710938 90.421142578125,23.78656005859375 90.4212646484375,23.786895751953125 90.42138671875,23.787185668945312 90.42169189453125,23.788284301757812 90.42230224609375,23.788131713867188 90.42291259765625,23.788284301757812 90.42340087890625,23.788436889648438 90.42401123046875,23.78857421875 90.42437744140625,23.788742065429688 90.42431640625,23.788925170898438 90.425048828125,23.789276123046875 90.42529296875,23.787734985351562 90.425537109375,23.786529541015625 90.42572021484375,23.78546142578125 90.42584228515625,23.784011840820312 90.42572021484375,23.781784057617188 90.4256591796875,23.781204223632812 90.425537109375,23.780044555664062 90.42559814453125,23.778579711914062 90.42572021484375,23.776992797851562 90.42584228515625,23.77557373046875 90.42578125,23.774307250976562 90.4254150390625,23.772323608398438 90.4251708984375,23.77142333984375 90.4246826171875,23.77056884765625 90.4241943359375,23.76971435546875 90.4237060546875,23.768905639648438</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

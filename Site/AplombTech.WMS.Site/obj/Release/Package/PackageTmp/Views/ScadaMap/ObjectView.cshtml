@@ -1,0 +1,46 @@
+@using NakedObjects.Facade.Utility;
+@using NakedObjects.Web.Mvc.Html
+@using AplombTech.WMS.QueryModel.Reports
+@model ScadaMap
+
+<div id="body">
+
+    <section class="main-content">
+        @(Html.TabbedHistory(Model))
+        <br/>
+        <div class="col-md-offset-0">
+            <p id="selectedZone" style="display: none;">1</p>
+            <p id="selectedDma" style="display: none;">2</p>
+            <p id="selectedPumpStation" style="display: none;">3</p>
+            @Html.DropDownListFor(model => model.SelectedZoneId, new SelectList(
+                Model.Zones,
+                "AreaID",
+                "Name",
+                Model.SelectedZoneId), "Select Zone", new {@onchange = "scadModule.LoadDma(this.value)" })
+
+            @Html.DropDownListFor(model => model.SelectedDmaId, new SelectList(
+                Enumerable.Empty<SelectListItem>(),
+                "AreaID",
+                "Name",
+                Model.SelectedDmaId), "Select Dma", new {@onchange = "scadModule.LoadPumpStation(this.value)" })
+            @Html.DropDownListFor(model => model.SelectedPumpStationId, new SelectList(
+                Enumerable.Empty<SelectListItem>(),
+                "AreaID",
+                "Name",
+                Model.SelectedPumpStationId), "Select Pumpstation", new { @onchange = "scadModule.ClearAllScada()" })
+            @*@Html.Partial("~/Views/ScadaMap/ScadaMap.cshtml", Model)*@
+
+            <input type="submit" value="Show" onclick="scadModule.ShowScada()" class="btn btn-default"/>
+
+            <div id="searchResults"></div>
+            @Scripts.Render("~/bundles/scadamap")
+            <script>
+                nofModule.ShowPreloadedScada();
+            </script>
+        </div>
+    </section>
+</div>
+
+
+
+

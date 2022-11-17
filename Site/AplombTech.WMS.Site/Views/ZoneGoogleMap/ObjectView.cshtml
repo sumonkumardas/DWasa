@@ -1,0 +1,144 @@
+@using NakedObjects.Facade.Utility;
+@using NakedObjects.Web.Mvc.Html
+@using AplombTech.WMS.QueryModel.Reports
+@using AplombTech.WMS.Domain.Sensors
+@model ZoneGoogleMap
+
+@{
+    Layout = "~/Views/Shared/_NofLayout.cshtml";
+    ViewBag.Title = "Google Map";
+}
+<div id="body">
+
+    <section class="main-content">
+        @(Html.TabbedHistory(Model))
+        <br />
+        <p>Map View Model for Google Map</p>
+        <link href="~/Content/themes/themes/default/style.css" rel="stylesheet" />
+        <div id="map" style="height: 600px;">
+
+        </div>
+
+        <div id="legend" style="background:white; padding:10px;">
+            @foreach (var zone in Model.Zones)
+            {
+            <ul>
+                <li id="zone_@zone.AreaId" data-jstree='{"icon":"../../Images/Icons/zone.png"}'>
+                    @zone.Name
+                    <ul>
+                        @foreach (var dma in zone.DMAs)
+                            {
+                            <li id="dma_@dma.AreaId" data-jstree='{"icon":"../../Images/Icons/dma.png"}'>
+                                @dma.Name
+                                <ul>
+                                    @foreach (var pumpStation in dma.PumpStations)
+                                        {
+                                        <li id="pump_@pumpStation.AreaId" data-jstree='{"icon":"@Url.Content("~/Images/Icons/pump.png")"}'>
+                                            @pumpStation.Name
+                                            <ul>
+                                                @foreach (var sensor in pumpStation.Sensors)
+                                                    {
+                                                        if (@sensor is EnergySensor)
+                                                        {
+                                                    <li id="device_@sensor.SensorId" data-jstree='{"icon":"@Url.Content("~/Images/Icons/ET.png")"}'>
+                                                        ET - @sensor.UUID
+                                                    </li>
+
+                                                        }
+                                                        if (@sensor is PressureSensor)
+                                                        {
+                                                    <li id="device_@sensor.SensorId" data-jstree='{"icon":"@Url.Content("~/Images/Icons/PT.png")"}'>
+                                                        PT - @sensor.UUID
+                                                    </li>
+                                                        }
+                                                        if (@sensor is FlowSensor)
+                                                        {
+                                                    <li id="device_@sensor.SensorId" data-jstree='{"icon":"@Url.Content("~/Images/Icons/FT.png")"}'>
+                                                        FT - @sensor.UUID
+                                                    </li>
+                                                        }
+                                                        if (@sensor is LevelSensor)
+                                                        {
+                                                    <li id="device_@sensor.SensorId" data-jstree='{"icon":"@Url.Content("~/Images")/Icons/LT.png"}'>
+                                                        LT - @sensor.UUID
+                                                    </li>
+                                                        }
+                                                        if (@sensor is ChlorinePresenceDetector)
+                                                        {
+                                                    <li id="device_@sensor.SensorId" data-jstree='{"icon":"@Url.Content("~/Images/Icons/CT.png")"}'>
+                                                        CPD - @sensor.UUID
+                                                    </li>
+                                                        }
+                                                    if (@sensor is ACPresenceDetector)
+                                                        {
+                                                    <li id="device_@sensor.SensorId" data-jstree='{"icon":"@Url.Content("~/Images/Icons/CT.png")"}'>
+                                                        ACP - @sensor.UUID
+                                                    </li>
+                                                    }
+                                                    if (@sensor is BatteryVoltageDetector)
+                                                    {
+                                                        <li id="device_@sensor.SensorId" data-jstree='{"icon":"@Url.Content("~/Images/Icons/FT.png")"}'>
+                                                            BV - @sensor.UUID
+                                                        </li>
+                                                    }
+                                                }
+                                            </ul>
+
+                                        </li>
+
+                                        }
+                                </ul>
+
+                            </li>
+                            }
+                    </ul>
+                </li>
+            </ul>
+            }
+
+        </div>
+        @Scripts.Render("~/bundles/jstree")
+        @Scripts.Render("~/bundles/map")
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTHzA3hwLR5NPQ9Gubaa6EV8hQNMhVuRM&callback=initMap"></script>
+        <script>
+            LoadMapRelatedScript();
+        </script>
+        <script>
+            var scadaUrl = $("#scadaUrl").val();
+            var drillDownUrl = $("#drillDownUrl").val();
+            var underThresoldUrl = $("#underThresoldUrl").val();
+        </script>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Service</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div >
+                            <div>Name : <p id="pumpname"></p>
+                            </div>
+                            <div>
+                                Gps Cordinate :
+                                <p id="gpscordinate"></p>
+                            </div>
+                            <label>Service</label>
+                            @Html.EnumDropDownListFor(m => m.ServiceType, "- Select Service -")
+                            <span class="validation-red" id="servicevalid"></span>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" id="modalSave"  class="btn btn-primary">Go</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div>
+    </section>
+
+</div>
+
+@section Scripts{
+
+}

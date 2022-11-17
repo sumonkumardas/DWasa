@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="OGRGeoJSON" id="OGRGeoJSON">
+	<SimpleField name="_isDeleted" type="int"></SimpleField>
+	<SimpleField name="ID" type="string"></SimpleField>
+	<SimpleField name="AREA_M2" type="string"></SimpleField>
+	<SimpleField name="THANA" type="string"></SimpleField>
+	<SimpleField name="ZONE_" type="string"></SimpleField>
+	<SimpleField name="LOCATION" type="string"></SimpleField>
+	<SimpleField name="DENSITY_20" type="string"></SimpleField>
+	<SimpleField name="DENSITY_21" type="string"></SimpleField>
+	<SimpleField name="POP_2010" type="string"></SimpleField>
+	<SimpleField name="POP_2030" type="string"></SimpleField>
+	<SimpleField name="NET_DEMAND" type="string"></SimpleField>
+	<SimpleField name="NET_DEMA_1" type="string"></SimpleField>
+	<SimpleField name="PEAK_DEMAN" type="string"></SimpleField>
+	<SimpleField name="PEAK_DEM_1" type="string"></SimpleField>
+	<SimpleField name="LOSS_2010" type="string"></SimpleField>
+	<SimpleField name="LOSS_2030" type="string"></SimpleField>
+	<SimpleField name="TOTAL_DEMA" type="string"></SimpleField>
+	<SimpleField name="TOTAL_DE_1" type="string"></SimpleField>
+	<SimpleField name="ZPOP_NTKAR" type="string"></SimpleField>
+	<SimpleField name="ZPOP_NTK_1" type="string"></SimpleField>
+	<SimpleField name="REMARK_201" type="string"></SimpleField>
+	<SimpleField name="REMARK_203" type="string"></SimpleField>
+	<SimpleField name="PRESSURE" type="string"></SimpleField>
+	<SimpleField name="TARGET_DMA" type="string"></SimpleField>
+	<SimpleField name="BASE_DEMAN" type="string"></SimpleField>
+	<SimpleField name="DEM30_MLD" type="string"></SimpleField>
+	<SimpleField name="Z0__DEM30" type="string"></SimpleField>
+	<SimpleField name="Z0__DEM301" type="string"></SimpleField>
+	<SimpleField name="Z0__DEM20" type="string"></SimpleField>
+	<SimpleField name="Shape_Leng" type="string"></SimpleField>
+	<SimpleField name="Shape_Area" type="string"></SimpleField>
+</Schema>
+<Folder><name>OGRGeoJSON</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_isDeleted">0</SimpleData>
+		<SimpleData name="ID">801</SimpleData>
+		<SimpleData name="AREA_M2">2230888</SimpleData>
+		<SimpleData name="THANA">Badda</SimpleData>
+		<SimpleData name="ZONE_">8</SimpleData>
+		<SimpleData name="LOCATION">Bashundara</SimpleData>
+		<SimpleData name="DENSITY_20">0.00000000000e+000</SimpleData>
+		<SimpleData name="DENSITY_21">0.00000000000e+000</SimpleData>
+		<SimpleData name="POP_2010">0.00000000000e+000</SimpleData>
+		<SimpleData name="POP_2030">0.00000000000e+000</SimpleData>
+		<SimpleData name="NET_DEMAND">0.00000000000e+000</SimpleData>
+		<SimpleData name="NET_DEMA_1">0.00000000000e+000</SimpleData>
+		<SimpleData name="PEAK_DEMAN">0.00000000000e+000</SimpleData>
+		<SimpleData name="PEAK_DEM_1">0.00000000000e+000</SimpleData>
+		<SimpleData name="LOSS_2010">0.00000000000e+000</SimpleData>
+		<SimpleData name="LOSS_2030">0.00000000000e+000</SimpleData>
+		<SimpleData name="TOTAL_DEMA">0.00000000000e+000</SimpleData>
+		<SimpleData name="TOTAL_DE_1">0.00000000000e+000</SimpleData>
+		<SimpleData name="ZPOP_NTKAR">0.00000000000e+000</SimpleData>
+		<SimpleData name="ZPOP_NTK_1">0.00000000000e+000</SimpleData>
+		<SimpleData name="REMARK_201"></SimpleData>
+		<SimpleData name="REMARK_203"></SimpleData>
+		<SimpleData name="PRESSURE">DMA</SimpleData>
+		<SimpleData name="TARGET_DMA">P2</SimpleData>
+		<SimpleData name="BASE_DEMAN">1.00000000000e+002</SimpleData>
+		<SimpleData name="DEM30_MLD">2.88200000000e+001</SimpleData>
+		<SimpleData name="Z0__DEM30">2.01700000000e+001</SimpleData>
+		<SimpleData name="Z0__DEM301">1.44100000000e+001</SimpleData>
+		<SimpleData name="Z0__DEM20">9.37000000000e+000</SimpleData>
+		<SimpleData name="Shape_Leng">6.62363885409e+003</SimpleData>
+		<SimpleData name="Shape_Area">2.23088776733e+006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>90.4300537109375,23.826751708984375 90.4375,23.828292846679688 90.4376220703125,23.826324462890625 90.43804931640625,23.817718505859375 90.438232421875,23.815032958984375 90.43792724609375,23.815155029296875 90.437744140625,23.815109252929688 90.43768310546875,23.815139770507812 90.43756103515625,23.81512451171875 90.43743896484375,23.815216064453125 90.43719482421875,23.815231323242188 90.43695068359375,23.815093994140625 90.43670654296875,23.815155029296875 90.4365234375,23.815032958984375 90.43658447265625,23.814849853515625 90.43658447265625,23.814727783203125 90.43646240234375,23.814620971679688 90.436279296875,23.814666748046875 90.43634033203125,23.812713623046875 90.4364013671875,23.809417724609375 90.43597412109375,23.809432983398438 90.43560791015625,23.809585571289062 90.4351806640625,23.809463500976562 90.4349365234375,23.809234619140625 90.43377685546875,23.809066772460938 90.4324951171875,23.808975219726562 90.43157958984375,23.809051513671875 90.43072509765625,23.808990478515625 90.42999267578125,23.808609008789062 90.428955078125,23.808303833007812 90.4283447265625,23.807830810546875 90.42718505859375,23.807632446289062 90.4271240234375,23.80816650390625 90.426513671875,23.80810546875 90.42633056640625,23.808670043945312 90.42633056640625,23.809707641601562 90.42596435546875,23.810592651367188 90.42578125,23.811843872070312 90.4254150390625,23.812713623046875 90.42449951171875,23.816558837890625 90.4249267578125,23.816940307617188 90.4249267578125,23.817245483398438 90.42529296875,23.818008422851562 90.4254150390625,23.818939208984375 90.42578125,23.819747924804688 90.4266357421875,23.820343017578125 90.42767333984375,23.821121215820312 90.42864990234375,23.821441650390625 90.429443359375,23.821929931640625 90.42926025390625,23.823394775390625 90.428955078125,23.8265380859375 90.4300537109375,23.826751708984375</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,48 @@
+2019-03-06 10:15:22,583 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener is going to start
+2019-03-06 10:15:24,808 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-03-06 10:15:24,815 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener has been started
+2019-03-06 10:15:25,013 [17] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-03-06 14:38:50,502 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener is going to start
+2019-03-06 14:38:52,770 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-03-06 14:38:52,775 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener has been started
+2019-03-06 14:38:52,984 [18] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-03-06 14:52:50,128 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener is going to start
+2019-03-06 14:52:52,635 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-03-06 14:52:52,640 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener has been started
+2019-03-06 14:52:53,012 [18] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-03-06 14:55:40,538 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener is going to start
+2019-03-06 14:55:43,102 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-03-06 14:55:43,106 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener has been started
+2019-03-06 14:55:43,490 [16] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-03-06 14:57:40,021 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener is going to start
+2019-03-06 14:57:42,383 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-03-06 14:57:42,387 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener has been started
+2019-03-06 14:57:42,773 [17] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-03-06 14:59:07,975 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener is going to start
+2019-03-06 14:59:10,559 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-03-06 14:59:10,562 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener has been started
+2019-03-06 14:59:10,950 [17] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-03-06 14:59:45,898 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener is going to start
+2019-03-06 14:59:48,739 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-03-06 14:59:48,744 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener has been started
+2019-03-06 14:59:49,123 [20] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-03-06 15:02:52,150 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener is going to start
+2019-03-06 15:02:54,607 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-03-06 15:02:54,610 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener has been started
+2019-03-06 15:02:55,004 [18] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-03-06 15:10:39,516 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener is going to start
+2019-03-06 15:10:42,134 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-03-06 15:10:42,142 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener has been started
+2019-03-06 15:10:42,535 [17] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-03-06 15:11:35,896 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener is going to start
+2019-03-06 15:11:38,582 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-03-06 15:11:38,586 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener has been started
+2019-03-06 15:11:38,984 [18] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-03-06 15:12:42,086 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener is going to start
+2019-03-06 15:12:44,455 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-03-06 15:12:44,459 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener has been started
+2019-03-06 15:12:44,834 [16] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-03-06 15:18:58,603 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener is going to start
+2019-03-06 15:19:00,943 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-03-06 15:19:00,946 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener has been started
+2019-03-06 15:19:01,149 [18] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1

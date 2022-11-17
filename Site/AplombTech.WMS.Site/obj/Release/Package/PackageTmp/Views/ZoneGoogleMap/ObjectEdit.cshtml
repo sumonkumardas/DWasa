@@ -1,0 +1,93 @@
+@using NakedObjects.Facade.Utility;
+@using NakedObjects.Web.Mvc.Html
+@using AplombTech.WMS.QueryModel.Reports
+@using AplombTech.WMS.Domain.Sensors
+@model ZoneGoogleMap
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "G Map";
+}
+<div id="body">
+    <section class="main-content">
+        @*@Html.TabbedHistory(Model)*@
+        @*@Html.Partial("~/Views/ZoneGoogleMap/MapwithTree.cshtml", Model)*@
+        <div id="map" style="height: 600px;">
+
+        </div>
+
+        <div id="legend" style="background:white; padding:10px;">
+            @foreach (var zone in Model.Zones)
+            {
+                <ul>
+                    <li id="zone_@zone.AreaId" data-jstree='{"icon":"../../Images/Icons/zone.png"}'>
+                        @zone.Name
+                        <ul>
+                            @foreach (var dma in zone.DMAs)
+                            {
+                                <li id="dma_@dma.AreaId" data-jstree='{"icon":"../../Images/Icons/dma.png"}'>
+                                    @dma.Name
+                                    <ul>
+                                        @foreach (var pumpStation in dma.PumpStations)
+                                        {
+                                            <li id="pump_@pumpStation.AreaId" data-jstree='{"icon":"../../Images/Icons/pump.png"}'>
+                                                @pumpStation.Name
+                                                <ul>
+                                                    @foreach (var sensor in pumpStation.Sensors)
+                                                    {
+                                                        if (@sensor is EnergySensor)
+                                                        {
+                                                            <li id="device_@sensor.SensorId" data-jstree='{"icon":"../../Images/Icons/ET.png"}'>
+                                                                ET - @sensor.UUID
+                                                            </li>
+
+                                                        }
+                                                        if (@sensor is PressureSensor)
+                                                        {
+                                                            <li id="device_@sensor.SensorId" data-jstree='{"icon":"../../Images/Icons/PT.png"}'>
+                                                                PT - @sensor.UUID
+                                                            </li>
+                                                        }
+                                                        if (@sensor is FlowSensor)
+                                                        {
+                                                            <li id="device_@sensor.SensorId" data-jstree='{"icon":"../../Images/Icons/FT.png"}'>
+                                                                FT - @sensor.UUID
+                                                            </li>
+                                                        }
+                                                        if (@sensor is LevelSensor)
+                                                        {
+                                                            <li id="device_@sensor.SensorId" data-jstree='{"icon":"../../Images/Icons/LT.png"}'>
+                                                                LT - @sensor.UUID
+                                                            </li>
+                                                        }
+                                                        if (@sensor is ChlorinePresenceDetector)
+                                                        {
+                                                            <li id="device_@sensor.SensorId" data-jstree='{"icon":"../../Images/Icons/CT.png"}'>
+                                                                CT - @sensor.UUID
+                                                            </li>
+                                                        }
+                                                    }
+                                                </ul>
+
+                                            </li>
+
+                                        }
+                                    </ul>
+
+                                </li>
+                            }
+                        </ul>
+                    </li>
+                </ul>
+            }
+
+        </div>
+
+    </section>
+</div>
+
+@section Scripts{
+}
+
+
+

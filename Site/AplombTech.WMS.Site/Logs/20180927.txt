@@ -1,0 +1,28 @@
+2018-09-27 11:39:20,755 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-09-27 11:43:19,173 [9] INFO AplombTech.MQTTLib.MqttClientWrapper - Published called!
+2018-09-27 11:43:56,613 [16] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Published to topic False
+2018-09-27 11:44:20,059 [16] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2018-09-27 11:44:23,681 [16] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-09-27 11:44:23,690 [16] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2018-09-27 11:45:45,667 [26] INFO AplombTech.MQTTLib.MqttClientWrapper - Published called!
+2018-09-27 11:45:48,635 [43] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Published to topic True
+2018-09-27 11:46:09,898 [38] INFO AplombTech.MQTTLib.MqttClientWrapper - Published called!
+2018-09-27 11:46:34,078 [43] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Published to topic True
+2018-09-27 15:57:01,495 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-09-27 16:03:06,164 [16] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-09-27 16:03:06,165 [16] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2018-09-27 16:03:06,787 [24] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-09-27 16:03:06,787 [24] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2018-09-27 16:03:07,444 [28] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-09-27 16:03:07,444 [28] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2018-09-27 16:03:08,091 [32] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-09-27 16:03:08,091 [32] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2018-09-27 16:03:08,796 [36] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-09-27 16:03:08,796 [36] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2018-09-27 16:03:09,455 [40] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-09-27 16:03:09,456 [40] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2018-09-27 16:03:10,118 [39] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-09-27 16:03:10,118 [39] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2018-09-27 16:03:10,755 [35] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-09-27 16:03:10,757 [35] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2018-09-27 16:04:12,876 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful

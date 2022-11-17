@@ -1,0 +1,6 @@
+2017-10-10 09:06:24,653 [10] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener is going to start
+2017-10-10 09:10:59,420 [10] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener is going to start
+2017-10-10 10:37:04,231 [10] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener is going to start
+2017-10-10 10:37:12,596 [10] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2017-10-10 10:37:16,940 [10] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener has been started
+2017-10-10 10:37:17,177 [23] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1

@@ -1,0 +1,91 @@
+2019-03-04 10:46:39,805 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:46:40,822 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:46:41,836 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:46:42,846 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:46:43,860 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:46:44,871 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:46:45,883 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:46:46,895 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:46:47,908 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:46:48,923 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:46:49,936 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:46:50,948 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:46:51,974 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:46:52,987 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:46:54,001 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:46:55,020 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:46:56,034 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:46:57,047 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:46:58,064 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:46:59,082 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:00,095 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:01,110 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:02,124 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:03,143 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:04,157 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:05,174 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:06,190 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:07,206 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:08,221 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:09,235 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:10,250 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:11,263 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:12,277 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:13,293 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:14,309 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:15,324 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:16,340 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:17,360 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:18,377 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:19,394 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:20,409 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:21,426 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:22,441 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:23,459 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:24,478 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:25,536 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:26,553 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:27,569 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:28,586 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:29,604 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:30,622 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:31,644 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:32,662 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:33,681 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:34,701 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:35,746 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:36,768 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:37,787 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:38,837 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:39,857 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:40,878 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:41,897 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:42,917 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:43,936 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:44,956 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:45,976 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:46,998 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:48,044 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:49,062 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:50,082 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:51,101 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:52,125 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:53,144 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:54,163 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:55,184 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:56,205 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:57,226 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:58,273 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:47:59,293 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:48:00,317 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:48:01,347 [1] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2019-03-04 10:48:30,205 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-04 11:19:13,790 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-04 11:21:26,855 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-04 11:23:21,816 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-04 11:27:49,832 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-04 11:30:03,615 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-04 11:43:03,459 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-04 14:37:48,238 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-04 14:54:19,834 [13] INFO AplombTech.MQTTLib.MqttClientWrapper - Published called!
+2019-03-04 16:18:14,765 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful

@@ -1,0 +1,13 @@
+2018-10-01 12:37:45,597 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-10-01 12:39:11,199 [9] INFO AplombTech.MQTTLib.MqttClientWrapper - Published called!
+2018-10-01 12:39:11,966 [17] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Published to topic True
+2018-10-01 12:39:30,596 [11] INFO AplombTech.MQTTLib.MqttClientWrapper - Published called!
+2018-10-01 12:39:31,355 [17] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Published to topic True
+2018-10-01 12:42:19,481 [22] INFO AplombTech.MQTTLib.MqttClientWrapper - Published called!
+2018-10-01 12:42:20,285 [17] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Published to topic True
+2018-10-01 16:33:23,366 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-10-01 19:24:25,480 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-10-01 19:34:39,556 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-10-01 19:36:45,968 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-10-01 19:42:35,204 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-10-01 19:49:01,052 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful

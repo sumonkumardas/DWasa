@@ -1,0 +1,74 @@
+﻿@using AplombTech.WMS.QueryModel.Reports
+@model ZoneGoogleMap
+
+<div id="body">
+
+    <div id="map">
+
+    </div>
+
+    <div id="legend">
+        @foreach (var zone in Model.Zones)
+        {
+            <ul>
+                <li id="zone_@zone.AreaId" data-jstree='{"icon":"../../Images/Icons/zone.png"}'>
+                    @zone.Name
+                    <ul>
+                        @foreach (var dma in zone.DMAs)
+                        {
+                            <li id="dma_@dma.AreaId" data-jstree='{"icon":"../../Images/Icons/dma.png"}'>
+                                @dma.Name
+                                <ul>
+                                    @foreach (var pumpStation in dma.PumpStations)
+                                    {
+                                        <li id="pump_@pumpStation.AreaId" data-jstree='{"icon":"../../Images/Icons/pump.png"}'>
+                                            @pumpStation.Name
+                                            @*<ul>
+        @foreach (var device in pumpStation.WaterLevelSensorList)
+        {
+            <li id="device_@device.Id" data-jstree='{"icon":"../../Images/Icons/sensor.png"}'>
+                @device.Name (FT)
+            </li>
+        }
+        @foreach (var device in pumpStation.PressureSensorList)
+        {
+            <li id="device_@device.Id" data-jstree='{"icon":"../../Images/Icons/sensor.png"}'>
+                @device.Name (PT)
+            </li>
+        }
+        @foreach (var device in pumpStation.ProductionSensorList)
+        {
+            <li id="device_@device.Id" data-jstree='{"icon":"../../Images/Icons/sensor.png"}'>
+                @device.Name (LT)
+            </li>
+        }
+        @foreach (var device in pumpStation.EnergySensorList)
+        {
+            <li id="device_@device.Id" data-jstree='{"icon":"../../Images/Icons/sensor.png"}'>
+                @device.Name (EM)
+            </li>
+        }
+        @foreach (var device in pumpStation.CholorinationSensorList)
+        {
+            <li id="device_@device.Id" data-jstree='{"icon":"../../Images/Icons/sensor.png"}'>
+                @device.Name (CLT)
+            </li>
+        }
+    </ul>*@
+
+                                        </li>
+
+                                    }
+                                </ul>
+
+                            </li>
+                        }
+                    </ul>
+                </li>
+            </ul>
+        }
+
+    </div>
+</div>
+
+

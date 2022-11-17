@@ -1,0 +1,94 @@
+﻿@using NakedObjects.Web.Mvc.Html
+@using System.Web.Optimization
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @(Styles.Render("~/Content/css", "~/Content/themes/base/css", "~/Content/nakedobjectscss"))
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.css">
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand" id="logo">AplombTechWMS</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                @*<ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    </ul>*@
+                @Html.Partial("_LoginPartial")
+                @(Html.MainMenus())
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="content-wrapper">
+
+        </div>
+
+        <div class="no-home-path" style="display: none">@(Html.ActionLink("Home", "Index", "Home"))</div>
+    </header>
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+    <footer>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p>&copy; @DateTime.Now.Year - AplombTech BD.</p>
+            </div>
+        </div>
+    </footer>
+    @(Scripts.Render(
+                                      "~/bundles/jquery",
+                                      "~/bundles/bootstrap",
+                                      "~/bundles/jqueryui",
+                                      "~/bundles/jqueryval",
+                                      "~/bundles/nakedobjectsajax"
+                                    @*"~/bundles/jquerydatepicker" //Specifies UK date format!*@
+                                    ))
+
+    <script src="~/Scripts/nof.js"></script>
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script type="text/javascript" src="http://code.highcharts.com/highcharts.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.js"></script>
+    <script src="~/Scripts/Preloaded.js"></script>
+    @Html.Hidden("publishCommandUrl", Url.Action("PublishMessage", "ScadaMap"))
+    @Html.Hidden("publishCholorineOnOffCommandUrl", Url.Action("PublishCholorineOnOffMessage", "ScadaMap"))
+    @Html.Hidden("getDmaUrl", Url.Action("GetDmaDropdownData", "ScadaMap"))
+    @Html.Hidden("getPumpStationUrl", Url.Action("GetPumpStationDropdownData", "ScadaMap"))
+    @Html.Hidden("showScadaUrl", Url.Action("ShowScada", "ScadaMap"))
+    @Html.Hidden("drillDownReportUrl", Url.Action("GetReportModel", "DrillDown"))
+    @Html.Hidden("underThresoldReportUrl", Url.Action("GetUnderThresoldReportModel", "UnderThresold"))
+    @Html.Hidden("scadaUrl", Url.Action("DemoScada", "ScadaMap"))
+    @Html.Hidden("drillDownUrl", Url.Action("ShowDrillDownFromMap", "DrillDown"))
+    @Html.Hidden("underThresoldUrl", Url.Action("DemoScada", "ScadaMap"))
+    @Html.Hidden("getZoneGooleMapUrl", Url.Action("GetZoneGoogleMap", "ZoneGoogleMap"))
+    @Html.Hidden("pumpStationOverViewUrl", Url.Action("GetOverViewDataOfPumpStation", "ZoneGoogleMap"))
+    @Html.Hidden("getSingleSensorStatusUrl", Url.Action("GetSingleSensorStatus", "ZoneGoogleMap"))
+    @Html.Hidden("getScadaDataUrl", Url.Action("GetScadaData", "ScadaMap"))
+    @Html.Hidden("getScadaSensorDataUrl", Url.Action("GetSensorData", "ScadaMap"))
+    @Html.Hidden("getSensorDropdownDataUrl", Url.Action("GetSensorDropdownData", "DrillDown"))
+    @Html.Hidden("publishVfdFrequency", Url.Action("PublishVfdFrequencyMessage", "ScadaMap"))
+    @Html.Hidden("motorOnOffReportUrl", Url.Action("GetMotorOnOffReportModel", "MotorOnOff"))
+    @Html.Hidden("imageUrl", @Url.Content("~/Images"))
+    @Html.Hidden("swfUrl", Url.Content("~/Images/RtmpPlayer.swf"))
+    @RenderSection("Scripts", required: false)
+
+
+</body>
+
+</html>

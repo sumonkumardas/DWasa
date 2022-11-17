@@ -1,0 +1,547 @@
+2019-03-03 11:27:16,952 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:20:52,252 [34] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:29:50,166 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:29:50,971 [12] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:29:50,972 [12] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:29:51,695 [17] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:29:51,696 [17] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:29:51,757 [11] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/6b0a6768-0fcb-49ab-9556-918646a9c32f/out/sensor_data
+2019-03-03 12:29:52,004 [11] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2348d15b-dcc4-4399-9154-47a1d57f6b2f/out/vfd_data
+2019-03-03 12:29:52,457 [11] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:29:52,457 [11] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:29:52,763 [12] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/6b0a6768-0fcb-49ab-9556-918646a9c32f/out/vfd_data
+2019-03-03 12:29:53,216 [12] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:29:53,216 [12] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:29:53,993 [18] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:29:53,993 [18] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:29:54,162 [15] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b1bce1d7-ae68-4bba-ae5c-b098e543165c/out/sensor_data
+2019-03-03 12:29:54,760 [15] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:29:54,760 [15] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:29:54,833 [22] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/fc1d21de-ac20-415e-8599-4a46a96df911/out/sensor_data
+2019-03-03 12:29:54,836 [22] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b1bce1d7-ae68-4bba-ae5c-b098e543165c/out/vfd_data
+2019-03-03 12:29:55,532 [22] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:29:55,532 [22] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:29:55,536 [26] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/fc1d21de-ac20-415e-8599-4a46a96df911/out/vfd_data
+2019-03-03 12:29:55,585 [26] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b7b819e4-7058-498f-ade6-534d3429dc16/out/sensor_data
+2019-03-03 12:29:56,294 [26] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:29:56,294 [26] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:29:56,301 [30] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b7b819e4-7058-498f-ade6-534d3429dc16/out/vfd_data
+2019-03-03 12:29:57,062 [30] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:29:57,062 [30] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:29:57,822 [34] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:29:57,822 [34] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:29:58,584 [38] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:29:58,584 [38] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:29:59,348 [42] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:29:59,348 [42] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:29:59,351 [46] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2c3e6615-74b7-4ca2-b242-50ec722945c3/out/sensor_data
+2019-03-03 12:30:00,278 [46] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:00,279 [46] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:00,283 [60] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2c3e6615-74b7-4ca2-b242-50ec722945c3/out/vfd_data
+2019-03-03 12:30:01,038 [60] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:01,038 [60] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:01,815 [64] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:01,815 [64] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:02,602 [67] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:02,602 [67] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:03,366 [71] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:03,367 [71] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:04,138 [75] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:04,139 [75] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:04,911 [79] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:04,911 [79] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:05,151 [83] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/bc84afff-3462-4111-b8ba-c39ff272167e/out/sensor_data
+2019-03-03 12:30:05,154 [83] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b8ceb2e5-fda7-43c7-8bb0-09d7961f5191/out/sensor_data
+2019-03-03 12:30:05,679 [83] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:05,680 [83] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:05,686 [87] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/bc84afff-3462-4111-b8ba-c39ff272167e/out/vfd_data
+2019-03-03 12:30:05,856 [87] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b8ceb2e5-fda7-43c7-8bb0-09d7961f5191/out/vfd_data
+2019-03-03 12:30:06,459 [87] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:06,459 [87] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:07,224 [91] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:07,224 [91] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:07,306 [95] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2348d15b-dcc4-4399-9154-47a1d57f6b2f/out/sensor_data
+2019-03-03 12:30:07,984 [95] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:07,984 [95] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:07,993 [99] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/6b0a6768-0fcb-49ab-9556-918646a9c32f/out/sensor_data
+2019-03-03 12:30:07,993 [99] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2348d15b-dcc4-4399-9154-47a1d57f6b2f/out/vfd_data
+2019-03-03 12:30:08,949 [99] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:08,949 [99] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:08,958 [103] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/6b0a6768-0fcb-49ab-9556-918646a9c32f/out/vfd_data
+2019-03-03 12:30:09,728 [103] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:09,728 [103] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:10,036 [107] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b1bce1d7-ae68-4bba-ae5c-b098e543165c/out/sensor_data
+2019-03-03 12:30:10,495 [107] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:10,495 [107] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:10,706 [111] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b1bce1d7-ae68-4bba-ae5c-b098e543165c/out/vfd_data
+2019-03-03 12:30:10,723 [111] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/fc1d21de-ac20-415e-8599-4a46a96df911/out/sensor_data
+2019-03-03 12:30:11,265 [111] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:11,265 [111] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:11,366 [115] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/fc1d21de-ac20-415e-8599-4a46a96df911/out/vfd_data
+2019-03-03 12:30:11,508 [115] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b7b819e4-7058-498f-ade6-534d3429dc16/out/sensor_data
+2019-03-03 12:30:12,026 [115] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:12,026 [115] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:12,033 [119] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b7b819e4-7058-498f-ade6-534d3429dc16/out/vfd_data
+2019-03-03 12:30:12,826 [119] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:12,827 [119] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:13,619 [123] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:13,619 [123] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:14,399 [127] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:14,399 [127] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:15,181 [131] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:15,181 [131] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:15,185 [135] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2c3e6615-74b7-4ca2-b242-50ec722945c3/out/sensor_data
+2019-03-03 12:30:15,943 [135] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:15,943 [135] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:16,152 [139] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2c3e6615-74b7-4ca2-b242-50ec722945c3/out/vfd_data
+2019-03-03 12:30:16,694 [139] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:16,695 [139] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:16,907 [143] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/e7f09bde-3f04-4202-9d7d-c26e6f90d768/out/sensor_data
+2019-03-03 12:30:17,472 [143] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:17,472 [143] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:17,585 [147] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/e7f09bde-3f04-4202-9d7d-c26e6f90d768/out/vfd_data
+2019-03-03 12:30:18,240 [147] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:18,241 [147] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:19,010 [151] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:19,010 [151] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:19,784 [155] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:19,785 [155] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:20,551 [159] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:20,551 [159] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:21,320 [164] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:21,320 [164] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:21,616 [168] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/bc84afff-3462-4111-b8ba-c39ff272167e/out/vfd_data
+2019-03-03 12:30:22,080 [168] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:22,080 [168] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:22,834 [172] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:22,834 [172] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:23,593 [176] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:23,593 [176] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:24,373 [180] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:24,373 [180] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:25,129 [184] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:25,129 [184] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:25,137 [188] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/6b0a6768-0fcb-49ab-9556-918646a9c32f/out/vfd_data
+2019-03-03 12:30:25,891 [188] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:25,891 [188] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:26,064 [192] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b1bce1d7-ae68-4bba-ae5c-b098e543165c/out/sensor_data
+2019-03-03 12:30:26,668 [192] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:26,668 [192] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:26,752 [196] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b1bce1d7-ae68-4bba-ae5c-b098e543165c/out/vfd_data
+2019-03-03 12:30:26,780 [196] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/fc1d21de-ac20-415e-8599-4a46a96df911/out/sensor_data
+2019-03-03 12:30:27,480 [196] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:27,480 [196] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:27,486 [200] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/fc1d21de-ac20-415e-8599-4a46a96df911/out/vfd_data
+2019-03-03 12:30:27,743 [200] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b7b819e4-7058-498f-ade6-534d3429dc16/out/sensor_data
+2019-03-03 12:30:28,285 [200] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:28,285 [200] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:28,289 [204] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b7b819e4-7058-498f-ade6-534d3429dc16/out/vfd_data
+2019-03-03 12:30:29,047 [204] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:29,047 [204] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:29,804 [208] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:29,804 [208] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:30,565 [212] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:30,566 [212] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:31,336 [216] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:31,336 [216] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:32,090 [220] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:32,090 [220] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:32,104 [224] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2c3e6615-74b7-4ca2-b242-50ec722945c3/out/vfd_data
+2019-03-03 12:30:32,847 [224] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:32,848 [224] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:32,878 [228] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/e7f09bde-3f04-4202-9d7d-c26e6f90d768/out/sensor_data
+2019-03-03 12:30:33,614 [228] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:33,614 [228] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:33,618 [232] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/e7f09bde-3f04-4202-9d7d-c26e6f90d768/out/vfd_data
+2019-03-03 12:30:34,757 [232] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:34,757 [232] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:35,551 [236] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:35,551 [236] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:36,319 [240] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:36,319 [240] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:37,079 [244] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:37,079 [244] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:37,113 [248] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/bc84afff-3462-4111-b8ba-c39ff272167e/out/sensor_data
+2019-03-03 12:30:37,189 [248] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b8ceb2e5-fda7-43c7-8bb0-09d7961f5191/out/sensor_data
+2019-03-03 12:30:37,850 [248] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:37,850 [248] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:37,889 [252] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b8ceb2e5-fda7-43c7-8bb0-09d7961f5191/out/vfd_data
+2019-03-03 12:30:38,633 [252] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:38,633 [252] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:39,412 [256] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:39,412 [256] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:39,417 [260] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2348d15b-dcc4-4399-9154-47a1d57f6b2f/out/sensor_data
+2019-03-03 12:30:39,636 [260] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/6b0a6768-0fcb-49ab-9556-918646a9c32f/out/sensor_data
+2019-03-03 12:30:39,981 [260] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2348d15b-dcc4-4399-9154-47a1d57f6b2f/out/vfd_data
+2019-03-03 12:30:40,511 [260] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:40,512 [260] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:40,614 [264] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/6b0a6768-0fcb-49ab-9556-918646a9c32f/out/vfd_data
+2019-03-03 12:30:41,316 [264] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:41,316 [264] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:42,094 [268] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:42,094 [268] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:42,098 [272] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b1bce1d7-ae68-4bba-ae5c-b098e543165c/out/sensor_data
+2019-03-03 12:30:42,706 [272] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/fc1d21de-ac20-415e-8599-4a46a96df911/out/sensor_data
+2019-03-03 12:30:42,733 [272] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b1bce1d7-ae68-4bba-ae5c-b098e543165c/out/vfd_data
+2019-03-03 12:30:43,150 [272] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:43,150 [272] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:43,315 [276] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/fc1d21de-ac20-415e-8599-4a46a96df911/out/vfd_data
+2019-03-03 12:30:43,931 [276] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:43,931 [276] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:44,242 [280] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b7b819e4-7058-498f-ade6-534d3429dc16/out/vfd_data
+2019-03-03 12:30:44,684 [280] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:44,684 [280] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:45,435 [284] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:45,435 [284] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:46,211 [288] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:46,211 [288] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:46,997 [292] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:46,997 [292] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:47,162 [296] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2c3e6615-74b7-4ca2-b242-50ec722945c3/out/sensor_data
+2019-03-03 12:30:47,770 [296] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:47,770 [296] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:48,541 [300] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:48,541 [300] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:49,313 [304] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:49,313 [304] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:49,651 [308] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/e7f09bde-3f04-4202-9d7d-c26e6f90d768/out/vfd_data
+2019-03-03 12:30:50,068 [308] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:50,068 [308] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:50,849 [312] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:50,849 [312] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:50,881 [316] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/116e4266-567c-4628-9915-95a0b9410ca0/out/sensor_data
+2019-03-03 12:30:51,636 [316] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:51,636 [316] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:52,424 [320] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:52,424 [320] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:53,202 [324] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:53,203 [324] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:53,206 [328] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b8ceb2e5-fda7-43c7-8bb0-09d7961f5191/out/sensor_data
+2019-03-03 12:30:53,442 [328] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/116e4266-567c-4628-9915-95a0b9410ca0/out/vfd_data
+2019-03-03 12:30:53,494 [328] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/bc84afff-3462-4111-b8ba-c39ff272167e/out/vfd_data
+2019-03-03 12:30:53,981 [328] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:53,981 [328] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:53,989 [332] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b8ceb2e5-fda7-43c7-8bb0-09d7961f5191/out/vfd_data
+2019-03-03 12:30:54,743 [332] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:54,743 [332] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:55,510 [336] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:55,510 [336] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:55,882 [340] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2348d15b-dcc4-4399-9154-47a1d57f6b2f/out/vfd_data
+2019-03-03 12:30:56,269 [340] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:56,269 [340] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:57,063 [344] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:57,063 [344] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:57,826 [348] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:57,826 [348] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:58,091 [352] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b1bce1d7-ae68-4bba-ae5c-b098e543165c/out/sensor_data
+2019-03-03 12:30:58,586 [352] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:58,587 [352] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:58,668 [356] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/fc1d21de-ac20-415e-8599-4a46a96df911/out/sensor_data
+2019-03-03 12:30:58,773 [356] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b1bce1d7-ae68-4bba-ae5c-b098e543165c/out/vfd_data
+2019-03-03 12:30:59,366 [356] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:30:59,366 [356] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:30:59,374 [360] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/fc1d21de-ac20-415e-8599-4a46a96df911/out/vfd_data
+2019-03-03 12:30:59,492 [360] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/116e4266-567c-4628-9915-95a0b9410ca0/out/sensor_data
+2019-03-03 12:30:59,604 [360] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b7b819e4-7058-498f-ade6-534d3429dc16/out/sensor_data
+2019-03-03 12:31:00,133 [360] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:00,133 [360] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:00,195 [364] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b7b819e4-7058-498f-ade6-534d3429dc16/out/vfd_data
+2019-03-03 12:31:00,906 [364] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:00,906 [364] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:00,914 [368] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/116e4266-567c-4628-9915-95a0b9410ca0/out/vfd_data
+2019-03-03 12:31:01,675 [368] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:01,675 [368] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:02,444 [372] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:02,444 [372] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:03,199 [376] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:03,199 [376] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:03,210 [380] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2c3e6615-74b7-4ca2-b242-50ec722945c3/out/sensor_data
+2019-03-03 12:31:04,229 [380] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:04,229 [380] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:04,236 [384] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2c3e6615-74b7-4ca2-b242-50ec722945c3/out/vfd_data
+2019-03-03 12:31:04,999 [384] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:04,999 [384] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:05,005 [388] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/e7f09bde-3f04-4202-9d7d-c26e6f90d768/out/sensor_data
+2019-03-03 12:31:05,569 [388] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/e7f09bde-3f04-4202-9d7d-c26e6f90d768/out/vfd_data
+2019-03-03 12:31:05,590 [388] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/116e4266-567c-4628-9915-95a0b9410ca0/out/sensor_data
+2019-03-03 12:31:05,979 [388] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:05,979 [388] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:06,750 [392] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:06,750 [392] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:07,511 [396] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:07,511 [396] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:08,266 [400] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:08,266 [400] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:09,032 [404] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:09,032 [404] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:09,039 [408] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/bc84afff-3462-4111-b8ba-c39ff272167e/out/sensor_data
+2019-03-03 12:31:09,059 [408] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b8ceb2e5-fda7-43c7-8bb0-09d7961f5191/out/sensor_data
+2019-03-03 12:31:09,512 [408] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/bc84afff-3462-4111-b8ba-c39ff272167e/out/vfd_data
+2019-03-03 12:31:10,104 [408] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:10,104 [408] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:10,865 [412] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:10,865 [412] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:11,626 [416] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:11,626 [416] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:11,689 [420] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/6b0a6768-0fcb-49ab-9556-918646a9c32f/out/sensor_data
+2019-03-03 12:31:12,394 [420] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:12,394 [420] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:12,552 [424] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/116e4266-567c-4628-9915-95a0b9410ca0/out/vfd_data
+2019-03-03 12:31:12,657 [424] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/6b0a6768-0fcb-49ab-9556-918646a9c32f/out/vfd_data
+2019-03-03 12:31:13,156 [424] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:13,156 [424] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:13,994 [428] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:13,994 [428] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:14,139 [432] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b1bce1d7-ae68-4bba-ae5c-b098e543165c/out/sensor_data
+2019-03-03 12:31:14,763 [432] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:14,763 [432] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:14,775 [436] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/fc1d21de-ac20-415e-8599-4a46a96df911/out/sensor_data
+2019-03-03 12:31:14,826 [436] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b1bce1d7-ae68-4bba-ae5c-b098e543165c/out/vfd_data
+2019-03-03 12:31:15,284 [436] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/fc1d21de-ac20-415e-8599-4a46a96df911/out/vfd_data
+2019-03-03 12:31:15,761 [436] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:15,761 [436] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:15,772 [440] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b7b819e4-7058-498f-ade6-534d3429dc16/out/sensor_data
+2019-03-03 12:31:16,123 [440] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b7b819e4-7058-498f-ade6-534d3429dc16/out/vfd_data
+2019-03-03 12:31:16,689 [440] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:16,689 [440] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:17,454 [444] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:17,454 [444] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:18,218 [448] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:18,218 [448] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:19,015 [452] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:19,015 [452] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:19,125 [456] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2c3e6615-74b7-4ca2-b242-50ec722945c3/out/sensor_data
+2019-03-03 12:31:19,785 [456] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:19,785 [456] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:20,118 [460] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2c3e6615-74b7-4ca2-b242-50ec722945c3/out/vfd_data
+2019-03-03 12:31:20,558 [460] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:20,558 [460] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:20,805 [466] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/e7f09bde-3f04-4202-9d7d-c26e6f90d768/out/sensor_data
+2019-03-03 12:31:21,325 [466] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:21,325 [466] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:21,570 [470] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/e7f09bde-3f04-4202-9d7d-c26e6f90d768/out/vfd_data
+2019-03-03 12:31:22,091 [470] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:22,091 [470] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:22,859 [474] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:22,859 [474] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:23,628 [478] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:23,628 [478] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:24,396 [482] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:24,397 [482] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:25,163 [486] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:25,164 [486] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:25,170 [490] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/bc84afff-3462-4111-b8ba-c39ff272167e/out/sensor_data
+2019-03-03 12:31:25,552 [490] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/bc84afff-3462-4111-b8ba-c39ff272167e/out/vfd_data
+2019-03-03 12:31:26,079 [490] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:26,079 [490] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:26,208 [494] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b8ceb2e5-fda7-43c7-8bb0-09d7961f5191/out/sensor_data
+2019-03-03 12:31:26,838 [494] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:26,838 [494] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:26,929 [498] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b8ceb2e5-fda7-43c7-8bb0-09d7961f5191/out/vfd_data
+2019-03-03 12:31:27,612 [498] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:27,612 [498] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:27,652 [502] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/6b0a6768-0fcb-49ab-9556-918646a9c32f/out/sensor_data
+2019-03-03 12:31:27,980 [502] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2348d15b-dcc4-4399-9154-47a1d57f6b2f/out/vfd_data
+2019-03-03 12:31:28,377 [502] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:28,377 [502] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:28,652 [506] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/6b0a6768-0fcb-49ab-9556-918646a9c32f/out/vfd_data
+2019-03-03 12:31:29,151 [506] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:29,151 [506] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:29,916 [510] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:29,916 [510] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:30,090 [514] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b1bce1d7-ae68-4bba-ae5c-b098e543165c/out/sensor_data
+2019-03-03 12:31:30,681 [514] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:30,681 [514] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:30,752 [518] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b1bce1d7-ae68-4bba-ae5c-b098e543165c/out/vfd_data
+2019-03-03 12:31:30,786 [518] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/fc1d21de-ac20-415e-8599-4a46a96df911/out/sensor_data
+2019-03-03 12:31:31,442 [518] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:31,442 [518] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:31,448 [522] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/fc1d21de-ac20-415e-8599-4a46a96df911/out/vfd_data
+2019-03-03 12:31:31,750 [522] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b7b819e4-7058-498f-ade6-534d3429dc16/out/sensor_data
+2019-03-03 12:31:32,205 [522] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:32,205 [522] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:32,259 [526] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b7b819e4-7058-498f-ade6-534d3429dc16/out/vfd_data
+2019-03-03 12:31:32,977 [526] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:32,977 [526] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:33,744 [530] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:33,744 [530] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:34,508 [534] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:34,508 [534] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:35,386 [538] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:35,386 [538] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:35,391 [542] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2c3e6615-74b7-4ca2-b242-50ec722945c3/out/sensor_data
+2019-03-03 12:31:36,330 [542] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:36,330 [542] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:36,334 [546] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2c3e6615-74b7-4ca2-b242-50ec722945c3/out/vfd_data
+2019-03-03 12:31:37,091 [546] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:37,091 [546] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:37,101 [550] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/e7f09bde-3f04-4202-9d7d-c26e6f90d768/out/sensor_data
+2019-03-03 12:31:38,120 [550] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:38,120 [550] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:38,905 [554] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:38,905 [554] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:39,676 [558] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:39,676 [558] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:40,441 [562] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:40,441 [562] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:41,216 [566] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:41,216 [566] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:41,222 [570] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b8ceb2e5-fda7-43c7-8bb0-09d7961f5191/out/sensor_data
+2019-03-03 12:31:41,222 [570] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/bc84afff-3462-4111-b8ba-c39ff272167e/out/sensor_data
+2019-03-03 12:31:41,701 [570] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/bc84afff-3462-4111-b8ba-c39ff272167e/out/vfd_data
+2019-03-03 12:31:41,796 [570] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b8ceb2e5-fda7-43c7-8bb0-09d7961f5191/out/vfd_data
+2019-03-03 12:31:43,063 [570] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2348d15b-dcc4-4399-9154-47a1d57f6b2f/out/sensor_data
+2019-03-03 12:31:43,711 [570] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/6b0a6768-0fcb-49ab-9556-918646a9c32f/out/sensor_data
+2019-03-03 12:31:43,740 [570] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2348d15b-dcc4-4399-9154-47a1d57f6b2f/out/vfd_data
+2019-03-03 12:31:44,725 [570] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/6b0a6768-0fcb-49ab-9556-918646a9c32f/out/vfd_data
+2019-03-03 12:31:46,020 [570] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b1bce1d7-ae68-4bba-ae5c-b098e543165c/out/sensor_data
+2019-03-03 12:31:46,563 [570] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:46,563 [570] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:46,602 [574] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/fc1d21de-ac20-415e-8599-4a46a96df911/out/sensor_data
+2019-03-03 12:31:46,705 [574] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b1bce1d7-ae68-4bba-ae5c-b098e543165c/out/vfd_data
+2019-03-03 12:31:47,341 [574] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:47,341 [574] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:47,346 [578] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/fc1d21de-ac20-415e-8599-4a46a96df911/out/vfd_data
+2019-03-03 12:31:47,710 [578] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b7b819e4-7058-498f-ade6-534d3429dc16/out/sensor_data
+2019-03-03 12:31:48,116 [578] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:48,116 [578] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:48,222 [582] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b7b819e4-7058-498f-ade6-534d3429dc16/out/vfd_data
+2019-03-03 12:31:48,904 [582] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:48,904 [582] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:49,684 [586] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:49,684 [586] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:50,453 [590] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:50,453 [590] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:51,232 [594] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:51,232 [594] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:51,239 [598] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2c3e6615-74b7-4ca2-b242-50ec722945c3/out/sensor_data
+2019-03-03 12:31:52,195 [598] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:52,195 [598] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:52,199 [602] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2c3e6615-74b7-4ca2-b242-50ec722945c3/out/vfd_data
+2019-03-03 12:31:52,961 [602] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:52,961 [602] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:52,972 [606] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/e7f09bde-3f04-4202-9d7d-c26e6f90d768/out/sensor_data
+2019-03-03 12:31:53,532 [606] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/e7f09bde-3f04-4202-9d7d-c26e6f90d768/out/vfd_data
+2019-03-03 12:31:53,932 [606] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:53,932 [606] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:54,691 [610] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:54,691 [610] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:55,463 [614] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:55,463 [614] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:56,214 [618] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:56,214 [618] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:56,997 [622] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:56,997 [622] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:57,035 [626] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b8ceb2e5-fda7-43c7-8bb0-09d7961f5191/out/sensor_data
+2019-03-03 12:31:57,149 [626] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/bc84afff-3462-4111-b8ba-c39ff272167e/out/sensor_data
+2019-03-03 12:31:57,754 [626] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:57,754 [626] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:57,762 [630] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/bc84afff-3462-4111-b8ba-c39ff272167e/out/vfd_data
+2019-03-03 12:31:57,762 [630] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b8ceb2e5-fda7-43c7-8bb0-09d7961f5191/out/vfd_data
+2019-03-03 12:31:58,528 [630] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:58,528 [630] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:59,308 [634] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:31:59,308 [634] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:31:59,317 [638] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2348d15b-dcc4-4399-9154-47a1d57f6b2f/out/sensor_data
+2019-03-03 12:31:59,771 [638] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/6b0a6768-0fcb-49ab-9556-918646a9c32f/out/sensor_data
+2019-03-03 12:31:59,930 [638] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2348d15b-dcc4-4399-9154-47a1d57f6b2f/out/vfd_data
+2019-03-03 12:32:00,382 [638] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:00,382 [638] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:00,719 [642] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/6b0a6768-0fcb-49ab-9556-918646a9c32f/out/vfd_data
+2019-03-03 12:32:01,142 [642] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:01,142 [642] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:01,908 [646] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:01,908 [646] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:01,971 [650] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b1bce1d7-ae68-4bba-ae5c-b098e543165c/out/sensor_data
+2019-03-03 12:32:02,667 [650] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:02,667 [650] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:02,673 [654] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b1bce1d7-ae68-4bba-ae5c-b098e543165c/out/vfd_data
+2019-03-03 12:32:02,748 [654] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/fc1d21de-ac20-415e-8599-4a46a96df911/out/sensor_data
+2019-03-03 12:32:03,458 [654] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:03,458 [654] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:03,465 [658] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/fc1d21de-ac20-415e-8599-4a46a96df911/out/vfd_data
+2019-03-03 12:32:03,535 [658] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b7b819e4-7058-498f-ade6-534d3429dc16/out/sensor_data
+2019-03-03 12:32:04,229 [658] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:04,229 [658] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:04,235 [662] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b7b819e4-7058-498f-ade6-534d3429dc16/out/vfd_data
+2019-03-03 12:32:04,993 [662] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:04,993 [662] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:05,000 [666] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/116e4266-567c-4628-9915-95a0b9410ca0/out/vfd_data
+2019-03-03 12:32:05,765 [666] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:05,765 [666] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:06,523 [670] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:06,524 [670] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:07,291 [674] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:07,291 [674] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:08,059 [678] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:08,059 [678] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:08,082 [682] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2c3e6615-74b7-4ca2-b242-50ec722945c3/out/vfd_data
+2019-03-03 12:32:08,847 [682] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:08,847 [682] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:08,887 [686] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/e7f09bde-3f04-4202-9d7d-c26e6f90d768/out/sensor_data
+2019-03-03 12:32:09,610 [686] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:09,610 [686] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:09,616 [690] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/e7f09bde-3f04-4202-9d7d-c26e6f90d768/out/vfd_data
+2019-03-03 12:32:09,616 [690] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/116e4266-567c-4628-9915-95a0b9410ca0/out/sensor_data
+2019-03-03 12:32:10,728 [690] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:10,728 [690] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:11,491 [694] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:11,492 [694] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:12,280 [698] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:12,280 [698] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:12,286 [702] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/116e4266-567c-4628-9915-95a0b9410ca0/out/vfd_data
+2019-03-03 12:32:13,063 [702] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:13,063 [702] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:13,124 [706] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/bc84afff-3462-4111-b8ba-c39ff272167e/out/sensor_data
+2019-03-03 12:32:13,238 [706] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b8ceb2e5-fda7-43c7-8bb0-09d7961f5191/out/sensor_data
+2019-03-03 12:32:13,844 [706] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:13,844 [706] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:14,072 [710] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b8ceb2e5-fda7-43c7-8bb0-09d7961f5191/out/vfd_data
+2019-03-03 12:32:14,601 [710] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:14,601 [710] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:15,362 [714] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:15,362 [714] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:15,371 [718] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2348d15b-dcc4-4399-9154-47a1d57f6b2f/out/sensor_data
+2019-03-03 12:32:15,675 [718] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/6b0a6768-0fcb-49ab-9556-918646a9c32f/out/sensor_data
+2019-03-03 12:32:16,241 [718] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:16,241 [718] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:17,006 [722] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:17,007 [722] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:17,770 [726] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:17,770 [726] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:17,967 [730] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b1bce1d7-ae68-4bba-ae5c-b098e543165c/out/sensor_data
+2019-03-03 12:32:18,533 [730] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:18,533 [730] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:18,648 [734] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b1bce1d7-ae68-4bba-ae5c-b098e543165c/out/vfd_data
+2019-03-03 12:32:18,757 [734] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/fc1d21de-ac20-415e-8599-4a46a96df911/out/sensor_data
+2019-03-03 12:32:19,330 [734] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:19,330 [734] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:19,341 [738] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/116e4266-567c-4628-9915-95a0b9410ca0/out/sensor_data
+2019-03-03 12:32:19,385 [738] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/fc1d21de-ac20-415e-8599-4a46a96df911/out/vfd_data
+2019-03-03 12:32:19,620 [738] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/b7b819e4-7058-498f-ade6-534d3429dc16/out/sensor_data
+2019-03-03 12:32:20,366 [738] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:20,366 [738] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:21,152 [742] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:21,152 [742] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:21,358 [746] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/116e4266-567c-4628-9915-95a0b9410ca0/out/vfd_data
+2019-03-03 12:32:21,916 [746] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:21,916 [746] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:22,682 [750] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:22,682 [750] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:23,451 [754] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:23,451 [754] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:24,213 [758] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:24,213 [758] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:24,239 [762] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/2c3e6615-74b7-4ca2-b242-50ec722945c3/out/vfd_data
+2019-03-03 12:32:25,022 [762] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:25,022 [762] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:25,027 [766] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/e7f09bde-3f04-4202-9d7d-c26e6f90d768/out/sensor_data
+2019-03-03 12:32:25,612 [766] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/e7f09bde-3f04-4202-9d7d-c26e6f90d768/out/vfd_data
+2019-03-03 12:32:26,037 [766] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:26,037 [766] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:26,041 [770] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/116e4266-567c-4628-9915-95a0b9410ca0/out/sensor_data
+2019-03-03 12:32:27,090 [770] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:27,090 [770] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2019-03-03 12:32:27,337 [774] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Publish-Received to topic wasa/116e4266-567c-4628-9915-95a0b9410ca0/out/vfd_data
+2019-03-03 12:32:27,861 [774] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2019-03-03 12:32:27,861 [774] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed

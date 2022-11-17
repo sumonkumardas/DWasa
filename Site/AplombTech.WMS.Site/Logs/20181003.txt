@@ -1,0 +1,10 @@
+2018-10-03 12:34:27,649 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-10-03 14:04:37,274 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-10-03 14:19:04,404 [12] ERROR AplombTech.MQTTLib.MqttClientWrapper - Could not stablished connection to MQ broker: Exception connecting to the broker
+2018-10-03 14:19:05,136 [12] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-10-03 14:19:05,140 [12] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2018-10-03 14:30:14,343 [74] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-10-03 14:30:14,343 [74] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2018-10-03 14:42:00,539 [108] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-10-03 14:42:00,540 [108] INFO AplombTech.MQTTLib.MqttClientWrapper - Connection has been closed
+2018-10-03 16:14:39,325 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful

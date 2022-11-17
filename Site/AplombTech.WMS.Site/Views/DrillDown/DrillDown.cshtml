@@ -1,0 +1,82 @@
+﻿@using NakedObjects.Facade.Utility;
+@using NakedObjects.Web.Mvc.Html
+@using AplombTech.WMS.QueryModel.Reports
+@model DrillDown
+@{
+    var days = new List<SelectListItem>();
+    for (var i = 1; i <= 31; i++)
+    {
+        days.Add(new SelectListItem { Text = i.ToString(), Value = i.ToString(), Selected = Model.Day == i });
+    }
+    var years = new List<SelectListItem>();
+    for (var i = 2016; i <= 2019; i++)
+    {
+        years.Add(new SelectListItem { Text = i.ToString(), Value = i.ToString(), Selected = Model.Year == i });
+    }
+
+    var weeks = new List<SelectListItem>();
+    for (var i = 1; i <= 52; i++)
+    {
+        weeks.Add(new SelectListItem { Text = i.ToString(), Value = i.ToString(), Selected = Model.Week == i });
+    }
+
+    var hours = new List<SelectListItem>();
+    for (var i = 1; i <= 24; i++)
+    {
+        hours.Add(new SelectListItem { Text = i.ToString(), Value = i.ToString(), Selected = Model.Hour == i });
+    }
+}
+@{
+    Layout = "~/Views/Shared/_NofLayout.cshtml";
+    ViewBag.Title = Html.ObjectTitle(Model);
+}
+<div id="body">
+    <section class="main-content">
+        @(Html.TabbedHistory(Model))
+        <br />
+
+        <div class="col-md-offset-1">
+            @using (Html.BeginForm("ExportToExcel", "DrillDown", FormMethod.Post))
+            {
+                @Html.DropDownListFor(model => model.SelectedPumpStationId, new SelectList(
+                    Model.PumpStations,
+                    "AreaID",
+                    "Name",
+                    Model.SelectedPumpStationId), "Select Pump Station")
+                <span class="validation-red" id="pumpstationvalid"></span>
+                @Html.EnumDropDownListFor(m => m.ReportType, "- Select Report Type -")
+                <span class="validation-red" id="reporttypevalid"></span>
+                @Html.EnumDropDownListFor(m => m.ReportType, "- Select Sensor -")
+                <span class="validation-red" id="sensorvalid"></span>
+
+
+                <div id="inputPanel">
+
+                    @Html.DropDownListFor(model => model.Year, years, "- Select Year -")
+                    <span class="validation-red" id="yearvalid"></span>
+                    @Html.EnumDropDownListFor(m => m.Month, "- Select Month -")
+                    <span class="validation-red" id="monthvalid"></span>
+                    @Html.DropDownListFor(model => model.Week, weeks, "- Select Week -")
+                    <span class="validation-red" id="weekvalid"></span>
+                    @Html.DropDownListFor(model => model.Day, days, "- Select Day -")
+                    <span class="validation-red" id="dayvalid"></span>
+                    @Html.DropDownListFor(model => model.Hour, hours, "- Select Hour -")
+                    <span class="validation-red" id="hourvalid"></span>
+                </div>
+                    <input type="submit" id="show" value="Show" class="btn btn-default" />
+                    <input type="submit" id="exp" value="Export" class="btn btn-default" />
+            }
+        </div>
+        <br />
+        <div id="chart_div"></div>
+        <div id="chartContainer" style="height: 300px; width:100%;">
+        </div>
+        @Scripts.Render("~/bundles/report")
+    </section>
+</div>
+
+@section Scripts{
+
+}
+
+

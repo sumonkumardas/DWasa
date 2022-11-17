@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="OGRGeoJSON" id="OGRGeoJSON">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="ID" type="int"></SimpleField>
+	<SimpleField name="OLD_ID" type="string"></SimpleField>
+	<SimpleField name="LABEL" type="string"></SimpleField>
+	<SimpleField name="NOTES" type="string"></SimpleField>
+	<SimpleField name="PUMP_ID" type="int"></SimpleField>
+	<SimpleField name="PUMP_NAME" type="string"></SimpleField>
+	<SimpleField name="PUMP_CAPAC" type="int"></SimpleField>
+	<SimpleField name="Elev_m" type="int"></SimpleField>
+	<SimpleField name="DMA_ID" type="int"></SimpleField>
+	<SimpleField name="Zone_ID" type="int"></SimpleField>
+	<SimpleField name="Location" type="string"></SimpleField>
+	<SimpleField name="Ward" type="int"></SimpleField>
+	<SimpleField name="Thana" type="string"></SimpleField>
+	<SimpleField name="Package" type="string"></SimpleField>
+	<SimpleField name="Contractor" type="string"></SimpleField>
+	<SimpleField name="Digitizer" type="string"></SimpleField>
+	<SimpleField name="Last_Updat" type="string"></SimpleField>
+	<SimpleField name="X" type="float"></SimpleField>
+	<SimpleField name="Y" type="float"></SimpleField>
+</Schema>
+<Folder><name>OGRGeoJSON</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">8</SimpleData>
+		<SimpleData name="ID">63</SimpleData>
+		<SimpleData name="LABEL">J809-19</SimpleData>
+		<SimpleData name="NOTES">DTW809_826</SimpleData>
+		<SimpleData name="PUMP_ID">826</SimpleData>
+		<SimpleData name="PUMP_CAPAC">0</SimpleData>
+		<SimpleData name="Elev_m">0</SimpleData>
+		<SimpleData name="DMA_ID">809</SimpleData>
+		<SimpleData name="Zone_ID">8</SimpleData>
+		<SimpleData name="Location">New DOHS</SimpleData>
+		<SimpleData name="Ward">0</SimpleData>
+		<SimpleData name="Thana">Cantonment</SimpleData>
+		<SimpleData name="Package">ICB 2.1</SimpleData>
+		<SimpleData name="Contractor">NCC</SimpleData>
+		<SimpleData name="X">90.410893</SimpleData>
+		<SimpleData name="Y">23.814918</SimpleData>
+	</SchemaData></ExtendedData>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">10</SimpleData>
+		<SimpleData name="ID">99</SimpleData>
+		<SimpleData name="LABEL">J808-36</SimpleData>
+		<SimpleData name="NOTES">DTW809_817</SimpleData>
+		<SimpleData name="PUMP_ID">817</SimpleData>
+		<SimpleData name="PUMP_CAPAC">0</SimpleData>
+		<SimpleData name="Elev_m">0</SimpleData>
+		<SimpleData name="DMA_ID">809</SimpleData>
+		<SimpleData name="Zone_ID">8</SimpleData>
+		<SimpleData name="Location">New DOHS</SimpleData>
+		<SimpleData name="Ward">0</SimpleData>
+		<SimpleData name="Thana">Cantonment</SimpleData>
+		<SimpleData name="Package">ICB 2.1</SimpleData>
+		<SimpleData name="Contractor">NCC</SimpleData>
+		<SimpleData name="X">90.41219</SimpleData>
+		<SimpleData name="Y">23.809716</SimpleData>
+	</SchemaData></ExtendedData>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">9</SimpleData>
+		<SimpleData name="ID">340</SimpleData>
+		<SimpleData name="LABEL">J808-151</SimpleData>
+		<SimpleData name="NOTES">DTW809_834</SimpleData>
+		<SimpleData name="PUMP_ID">834</SimpleData>
+		<SimpleData name="PUMP_CAPAC">0</SimpleData>
+		<SimpleData name="Elev_m">0</SimpleData>
+		<SimpleData name="DMA_ID">809</SimpleData>
+		<SimpleData name="Zone_ID">8</SimpleData>
+		<SimpleData name="Location">New DOHS</SimpleData>
+		<SimpleData name="Ward">0</SimpleData>
+		<SimpleData name="Thana">Cantonment</SimpleData>
+		<SimpleData name="Package">ICB 2.1</SimpleData>
+		<SimpleData name="Contractor">NCC</SimpleData>
+		<SimpleData name="X">90.416258</SimpleData>
+		<SimpleData name="Y">23.815775</SimpleData>
+	</SchemaData></ExtendedData>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">7</SimpleData>
+		<SimpleData name="ID">121</SimpleData>
+		<SimpleData name="LABEL">J809-48</SimpleData>
+		<SimpleData name="NOTES">DTW809_817-Old</SimpleData>
+		<SimpleData name="PUMP_ID">817</SimpleData>
+		<SimpleData name="PUMP_CAPAC">0</SimpleData>
+		<SimpleData name="Elev_m">0</SimpleData>
+		<SimpleData name="DMA_ID">809</SimpleData>
+		<SimpleData name="Zone_ID">8</SimpleData>
+		<SimpleData name="Location">New DOHS</SimpleData>
+		<SimpleData name="Ward">0</SimpleData>
+		<SimpleData name="Thana">Cantonment</SimpleData>
+		<SimpleData name="Package">ICB 2.1</SimpleData>
+		<SimpleData name="Contractor">NCC</SimpleData>
+		<SimpleData name="X">90.412884</SimpleData>
+		<SimpleData name="Y">23.809299</SimpleData>
+	</SchemaData></ExtendedData>
+  </Placemark>
+</Folder>
+</Document></kml>

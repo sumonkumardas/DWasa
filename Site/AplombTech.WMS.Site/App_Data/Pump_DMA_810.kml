@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="OGRGeoJSON" id="OGRGeoJSON">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="ZONEID" type="int"></SimpleField>
+	<SimpleField name="DMA" type="int"></SimpleField>
+	<SimpleField name="DTWID" type="string"></SimpleField>
+	<SimpleField name="X" type="int"></SimpleField>
+	<SimpleField name="Y" type="int"></SimpleField>
+	<SimpleField name="LOCNAME" type="string"></SimpleField>
+	<SimpleField name="ENABLED" type="int"></SimpleField>
+	<SimpleField name="MUID" type="string"></SimpleField>
+	<SimpleField name="ASSET" type="string"></SimpleField>
+	<SimpleField name="DATASOURCE" type="string"></SimpleField>
+	<SimpleField name="DESCRIPTIO" type="string"></SimpleField>
+	<SimpleField name="ELEV" type="float"></SimpleField>
+	<SimpleField name="PZONEID" type="string"></SimpleField>
+	<SimpleField name="ELEVATIONM" type="float"></SimpleField>
+	<SimpleField name="THNNM" type="string"></SimpleField>
+	<SimpleField name="DISTNM" type="string"></SimpleField>
+	<SimpleField name="UNIONNM" type="string"></SimpleField>
+	<SimpleField name="DTCOMPLETN" type="string"></SimpleField>
+	<SimpleField name="DIAMETERMM" type="int"></SimpleField>
+	<SimpleField name="PUMPTYPE" type="string"></SimpleField>
+	<SimpleField name="PUMPCONDTN" type="string"></SimpleField>
+	<SimpleField name="WELPIPDIMM" type="int"></SimpleField>
+	<SimpleField name="WELPIPELNM" type="int"></SimpleField>
+	<SimpleField name="PMPHSGDIMM" type="int"></SimpleField>
+	<SimpleField name="PMPHSGLNM" type="int"></SimpleField>
+	<SimpleField name="WELLTOPELV" type="float"></SimpleField>
+	<SimpleField name="SCRNLNGTHM" type="int"></SimpleField>
+	<SimpleField name="FICTRDPTHM" type="int"></SimpleField>
+	<SimpleField name="FLWMTRINST" type="string"></SimpleField>
+	<SimpleField name="SRCPOWER" type="string"></SimpleField>
+	<SimpleField name="PRESRGAUGE" type="string"></SimpleField>
+	<SimpleField name="NONRTRNVLV" type="string"></SimpleField>
+	<SimpleField name="VOLTMETER" type="string"></SimpleField>
+	<SimpleField name="AMPMETER" type="string"></SimpleField>
+	<SimpleField name="PUMPCAPCTY" type="int"></SimpleField>
+	<SimpleField name="PRODACTUAL" type="float"></SimpleField>
+	<SimpleField name="PUMPNGHR" type="int"></SimpleField>
+	<SimpleField name="PIPEID" type="string"></SimpleField>
+	<SimpleField name="INSTLPWLM" type="int"></SimpleField>
+	<SimpleField name="INSTLSWLM" type="int"></SimpleField>
+	<SimpleField name="INSTSCPLSM" type="int"></SimpleField>
+	<SimpleField name="PROJECTNM" type="string"></SimpleField>
+	<SimpleField name="DRILLERNM" type="string"></SimpleField>
+	<SimpleField name="DORSTATUS" type="string"></SimpleField>
+	<SimpleField name="STRDIMTRMM" type="string"></SimpleField>
+	<SimpleField name="DRAWDOWNM" type="int"></SimpleField>
+	<SimpleField name="FLOORELVM" type="int"></SimpleField>
+	<SimpleField name="PILOTDMA" type="int"></SimpleField>
+	<SimpleField name="PRESSURE_L" type="string"></SimpleField>
+	<SimpleField name="PRESS_LOG" type="string"></SimpleField>
+	<SimpleField name="POSITION" type="string"></SimpleField>
+	<SimpleField name="WGS_X" type="float"></SimpleField>
+	<SimpleField name="WGS_Y" type="float"></SimpleField>
+	<SimpleField name="POINT_X" type="float"></SimpleField>
+	<SimpleField name="POINT_Y" type="float"></SimpleField>
+</Schema>
+<Folder><name>OGRGeoJSON</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">26940</SimpleData>
+		<SimpleData name="ZONEID">8</SimpleData>
+		<SimpleData name="DMA">810</SimpleData>
+		<SimpleData name="DTWID">806</SimpleData>
+		<SimpleData name="X">543034</SimpleData>
+		<SimpleData name="Y">632480</SimpleData>
+		<SimpleData name="LOCNAME">Baridhara</SimpleData>
+		<SimpleData name="ENABLED">1</SimpleData>
+		<SimpleData name="MUID">056012</SimpleData>
+		<SimpleData name="DATASOURCE">inflow</SimpleData>
+		<SimpleData name="DESCRIPTIO">525</SimpleData>
+		<SimpleData name="ELEV">5.82874</SimpleData>
+		<SimpleData name="ELEVATIONM">5.83</SimpleData>
+		<SimpleData name="THNNM">Gulshan</SimpleData>
+		<SimpleData name="DISTNM">DHAKA</SimpleData>
+		<SimpleData name="UNIONNM">Gulshan Psa</SimpleData>
+		<SimpleData name="DTCOMPLETN">2000/06/14</SimpleData>
+		<SimpleData name="DIAMETERMM">0</SimpleData>
+		<SimpleData name="PUMPTYPE">Submersible</SimpleData>
+		<SimpleData name="WELPIPDIMM">200</SimpleData>
+		<SimpleData name="WELPIPELNM">0</SimpleData>
+		<SimpleData name="PMPHSGDIMM">0</SimpleData>
+		<SimpleData name="PMPHSGLNM">84</SimpleData>
+		<SimpleData name="WELLTOPELV">5.83</SimpleData>
+		<SimpleData name="SCRNLNGTHM">57</SimpleData>
+		<SimpleData name="FICTRDPTHM">168</SimpleData>
+		<SimpleData name="PUMPCAPCTY">2</SimpleData>
+		<SimpleData name="PRODACTUAL">34.95</SimpleData>
+		<SimpleData name="PUMPNGHR">0</SimpleData>
+		<SimpleData name="INSTLPWLM">43</SimpleData>
+		<SimpleData name="INSTLSWLM">29</SimpleData>
+		<SimpleData name="INSTSCPLSM">4</SimpleData>
+		<SimpleData name="PROJECTNM">IP-4</SimpleData>
+		<SimpleData name="DORSTATUS">Do R-1</SimpleData>
+		<SimpleData name="STRDIMTRMM">457 x 203</SimpleData>
+		<SimpleData name="DRAWDOWNM">14</SimpleData>
+		<SimpleData name="FLOORELVM">0</SimpleData>
+		<SimpleData name="PILOTDMA">1</SimpleData>
+		<SimpleData name="PRESSURE_L">Completed</SimpleData>
+		<SimpleData name="PRESS_LOG">2.8</SimpleData>
+		<SimpleData name="POSITION">In DMA</SimpleData>
+		<SimpleData name="WGS_X">90.419688</SimpleData>
+		<SimpleData name="WGS_Y">23.805628</SimpleData>
+		<SimpleData name="POINT_X">90.419688</SimpleData>
+		<SimpleData name="POINT_Y">23.805628</SimpleData>
+	</SchemaData></ExtendedData>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,140 @@
+2019-02-27 13:38:02,456 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener is going to start
+2019-02-27 13:38:11,905 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:38:11,908 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener has been started
+2019-02-27 13:38:12,290 [17] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:38:20,229 [17] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:38:20,229 [17] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:38:20,606 [23] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:38:21,776 [23] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:38:21,776 [23] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:38:22,169 [27] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:38:23,298 [27] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:38:23,298 [27] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:38:23,685 [31] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:38:28,059 [31] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:38:28,059 [31] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:38:28,437 [36] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:38:29,581 [36] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:38:29,581 [36] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:38:29,952 [40] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:38:31,288 [40] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:38:31,288 [40] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:38:31,681 [11] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:38:32,821 [11] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:38:32,821 [11] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:38:33,197 [44] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:38:34,389 [44] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:38:34,389 [44] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:38:34,780 [48] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:38:35,909 [48] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:38:35,909 [48] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:38:36,284 [52] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:38:40,656 [52] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:38:40,656 [52] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:38:41,048 [35] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:38:42,165 [35] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:38:42,165 [35] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:38:42,540 [10] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:38:43,700 [10] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:38:43,700 [10] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:38:44,083 [29] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:38:45,207 [29] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:38:45,207 [29] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:38:45,579 [25] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:38:46,870 [25] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:38:46,870 [25] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:38:47,260 [21] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:38:48,382 [21] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:38:48,382 [21] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:38:48,766 [56] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:38:49,878 [56] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:38:49,879 [56] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:38:50,251 [60] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:38:51,425 [60] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:38:51,425 [60] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:38:51,819 [64] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:38:52,962 [64] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:38:52,962 [64] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:38:53,356 [68] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:38:54,429 [68] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:38:54,429 [68] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:38:54,806 [72] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:38:56,491 [72] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:38:56,492 [72] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:38:56,873 [67] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:38:58,010 [67] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:38:58,010 [67] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:38:58,399 [63] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:38:59,557 [63] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:38:59,557 [63] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:38:59,939 [59] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:39:01,100 [59] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:39:01,100 [59] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:39:01,486 [31] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:40:55,276 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener is going to start
+2019-02-27 13:40:56,950 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:41:07,630 [1] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT listener has been started
+2019-02-27 13:41:08,006 [17] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:41:12,021 [17] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:41:12,022 [17] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:41:12,412 [24] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:41:13,558 [24] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:41:13,558 [24] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:41:13,938 [28] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:41:15,089 [28] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:41:15,089 [28] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:41:15,483 [32] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:41:16,573 [32] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:41:16,573 [32] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:41:16,943 [10] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:41:18,061 [10] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:41:18,061 [10] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:41:18,432 [36] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:41:19,570 [36] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:41:19,570 [36] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:41:19,946 [40] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:41:21,078 [40] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:41:21,079 [40] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:41:21,456 [44] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:41:22,610 [44] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:41:22,610 [44] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:41:23,001 [48] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:41:24,133 [48] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:41:24,134 [48] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:41:24,520 [52] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:41:25,665 [52] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:41:25,665 [52] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:41:26,057 [56] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:41:27,376 [56] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:41:27,376 [56] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:41:27,765 [70] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:41:28,873 [70] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:41:28,873 [70] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:41:29,250 [74] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:41:30,401 [74] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:41:30,402 [74] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:41:30,789 [77] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:41:31,934 [77] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:41:31,934 [77] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:41:32,309 [73] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:41:33,453 [73] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:41:33,454 [73] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:41:33,825 [69] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:41:34,990 [69] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:41:34,990 [69] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:41:35,373 [55] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:41:36,498 [55] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:41:36,498 [55] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:41:36,884 [51] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:41:38,034 [51] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:41:38,034 [51] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:41:38,410 [47] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:41:39,563 [47] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:41:39,563 [47] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:41:39,943 [43] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:41:41,081 [43] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:41:41,082 [43] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:41:41,467 [39] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1
+2019-02-27 13:41:42,611 [39] INFO AplombTech.WMS.MQTT.Client.MqttClientService - MQTT Client is connected via SSL
+2019-02-27 13:41:42,611 [39] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Connection has been closed
+2019-02-27 13:41:42,998 [35] INFO AplombTech.WMS.MQTT.Client.MqttClientService - Mqtt-Msg-Subscribed to topic 1

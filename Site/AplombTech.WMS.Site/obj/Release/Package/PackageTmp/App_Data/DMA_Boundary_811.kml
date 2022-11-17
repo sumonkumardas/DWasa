@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="OGRGeoJSON" id="OGRGeoJSON">
+	<SimpleField name="_isDeleted" type="int"></SimpleField>
+	<SimpleField name="OBJECTID" type="string"></SimpleField>
+	<SimpleField name="ID" type="string"></SimpleField>
+	<SimpleField name="AREA_M2" type="string"></SimpleField>
+	<SimpleField name="THANA" type="string"></SimpleField>
+	<SimpleField name="ZONE" type="string"></SimpleField>
+	<SimpleField name="LOCATION" type="string"></SimpleField>
+	<SimpleField name="DENSITY_20" type="string"></SimpleField>
+	<SimpleField name="DENSITY_21" type="string"></SimpleField>
+	<SimpleField name="POP_2010" type="string"></SimpleField>
+	<SimpleField name="POP_2030" type="string"></SimpleField>
+	<SimpleField name="NET_DEMAND" type="string"></SimpleField>
+	<SimpleField name="NET_DEMA_1" type="string"></SimpleField>
+	<SimpleField name="PEAK_DEMAN" type="string"></SimpleField>
+	<SimpleField name="PEAK_DEM_1" type="string"></SimpleField>
+	<SimpleField name="LOSS_2010" type="string"></SimpleField>
+	<SimpleField name="LOSS_2030" type="string"></SimpleField>
+	<SimpleField name="TOTAL_DEMA" type="string"></SimpleField>
+	<SimpleField name="TOTAL_DE_1" type="string"></SimpleField>
+	<SimpleField name="ZPOP_NTKAR" type="string"></SimpleField>
+	<SimpleField name="ZPOP_NTK_1" type="string"></SimpleField>
+	<SimpleField name="REMARK_201" type="string"></SimpleField>
+	<SimpleField name="REMARK_203" type="string"></SimpleField>
+	<SimpleField name="PRESSURE" type="string"></SimpleField>
+	<SimpleField name="TARGET_DMA" type="string"></SimpleField>
+	<SimpleField name="BASE_DEMAN" type="string"></SimpleField>
+	<SimpleField name="Shape_Leng" type="string"></SimpleField>
+	<SimpleField name="Shape_Area" type="string"></SimpleField>
+</Schema>
+<Folder><name>OGRGeoJSON</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_isDeleted">0</SimpleData>
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="ID">811</SimpleData>
+		<SimpleData name="AREA_M2">329830</SimpleData>
+		<SimpleData name="THANA">Gulshan, Badda</SimpleData>
+		<SimpleData name="ZONE">8</SimpleData>
+		<SimpleData name="LOCATION">Shahjadpur, Badda</SimpleData>
+		<SimpleData name="DENSITY_20">0.00000000000e+000</SimpleData>
+		<SimpleData name="DENSITY_21">0.00000000000e+000</SimpleData>
+		<SimpleData name="POP_2010">0.00000000000e+000</SimpleData>
+		<SimpleData name="POP_2030">0.00000000000e+000</SimpleData>
+		<SimpleData name="NET_DEMAND">0.00000000000e+000</SimpleData>
+		<SimpleData name="NET_DEMA_1">0.00000000000e+000</SimpleData>
+		<SimpleData name="PEAK_DEMAN">0.00000000000e+000</SimpleData>
+		<SimpleData name="PEAK_DEM_1">0.00000000000e+000</SimpleData>
+		<SimpleData name="LOSS_2010">0.00000000000e+000</SimpleData>
+		<SimpleData name="LOSS_2030">0.00000000000e+000</SimpleData>
+		<SimpleData name="TOTAL_DEMA">0.00000000000e+000</SimpleData>
+		<SimpleData name="TOTAL_DE_1">0.00000000000e+000</SimpleData>
+		<SimpleData name="ZPOP_NTKAR">0.00000000000e+000</SimpleData>
+		<SimpleData name="ZPOP_NTK_1">0.00000000000e+000</SimpleData>
+		<SimpleData name="REMARK_201"></SimpleData>
+		<SimpleData name="REMARK_203"></SimpleData>
+		<SimpleData name="PRESSURE">DMA</SimpleData>
+		<SimpleData name="TARGET_DMA">P2</SimpleData>
+		<SimpleData name="BASE_DEMAN">1.00000000000e+002</SimpleData>
+		<SimpleData name="Shape_Leng">2.83115219800e+003</SimpleData>
+		<SimpleData name="Shape_Area">3.29835184418e+005</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>13.5,631827.5 167.0,631874.5 -101.5,631892.0 -30.5,631510.5 -4.5,631366.5 44.5,631090.0 59.5,631003.0 66.5,630962.0 36.5,630946.5 -6.5,630922.5 -2,630903 -42.0,630884.5 -107.5,630867.0 -150.5,630851.0 148.5,630834.5 82.0,630851.5 102.0,631036.5 114.5,631148.0 110,631216 81.5,631315.0 63.0,631377.5 41.0,631451.5 -9.5,631506.5 144.5,631729.5 -135.5,631765.5 13.5,631827.5</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,44 @@
+﻿
+
+@using AplombTech.WMS.QueryModel.Reports
+@using AplombTech.WMS.Domain.Sensors
+@using NakedObjects.Web.Mvc.Html
+@model ScadaMap
+
+@{
+    Layout = "~/Views/Shared/_NofLayout.cshtml";
+    ViewBag.Title = Html.ObjectTitle(Model);
+}
+
+<div id="body">
+    <section class="main-content">
+        @(Html.TabbedHistory(Model))
+
+        <div class="">
+            
+            @Html.DropDownListFor(model => model.SelectedZoneId, new SelectList(
+                Model.Zones,
+                "AreaID",
+                "Name",
+                Model.SelectedZoneId), "Select Zone", new {@onchange = "LoadDma(this.value)"})
+
+            @Html.DropDownListFor(model => model.SelectedDmaId, new SelectList(
+                Enumerable.Empty<SelectListItem>(),
+                "AreaID",
+                "Name",
+                Model.SelectedDmaId), "Select Dma", new {@onchange = "LoadPumpStation(this.value)"})
+            @Html.DropDownListFor(model => model.SelectedPumpStationId, new SelectList(
+                Enumerable.Empty<SelectListItem>(),
+                "AreaID",
+                "Name",
+                Model.SelectedPumpStationId), "Select Pumpstation", new { @onchange = "LoadScada(this.value)"})
+            @*@Html.Partial("~/Views/ScadaMap/ScadaMap.cshtml", Model)*@
+
+            <input type="submit" value="Show" onclick="showScada()" class="btn btn-default"/>
+
+            <div id="searchResults"></div>
+            @Scripts.Render("~/bundles/scadamap")
+            
+        </div>
+    </section>
+</div>

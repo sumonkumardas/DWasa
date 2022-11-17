@@ -1,0 +1,269 @@
+﻿@using AplombTech.WMS.QueryModel.Reports
+@using AplombTech.WMS.Domain.Sensors
+@model List<AplombTech.WMS.Domain.Sensors.Sensor>
+@{
+    decimal cpdValue = 0;
+    decimal etValue = 0;
+}
+
+<div id="imgContainer">
+    <img src="@Url.Content("~/Images/scadamap.png")" class="img" alt="Scada map">
+
+    <style>
+        span {
+            cursor: pointer;
+            cursor: hand;
+            font-weight: normal !important;
+            font-size: small !important;
+        }
+
+        .dateTimeSpan {
+            font-size: smaller !important;
+        }
+
+        .grad {
+            background: red; /* For browsers that do not support gradients */
+            background: -webkit-linear-gradient(left, rgba(235, 238, 221, 1), rgba(255, 0, 0, 0)); /*Safari 5.1-6*/
+            background: -o-linear-gradient(right, rgba(235, 238, 221, 1), rgba(255, 0, 0, 0)); /*Opera 11.1-12*/
+            background: -moz-linear-gradient(right, rgba(235, 238, 221, 1), rgba(255, 0, 0, 0)); /*Fx 3.6-15*/
+            background: linear-gradient(to right, rgba(235, 238, 221, 1), rgba(255, 0, 0, 0)); /*Standard*/
+        }
+    </style>
+    <div style="position: absolute; padding-left: 10px; margin-top: -520px;">
+        <span>Connection Status</span>
+        @if (@Model[1].LastDataReceived.HasValue && @Model[1].LastDataReceived.Value.AddMinutes(5) > @DateTime.Now)
+        {
+            <h4><span id="connectionStatus" class="label label-success">Online</span></h4>
+        }
+        else
+        {
+            <h4><span id="connectionStatus" class="label label-danger">Offline</span></h4>
+        }
+        <span class="label label-primary dateTimeSpan" id="connectionStatusTime">@(@Model[1].LastDataReceived == null ? @DateTime.MinValue : Model[1].LastDataReceived)</span>
+
+    </div>
+    <div style="position: absolute; padding-left: 10px; margin-top: -280px; width: 180px;" class="grad">
+        <h4>General</h4>
+        @foreach (var sensor in Model)
+        {
+            if (@sensor is ChlorinePresenceDetector)
+            {
+                if (@sensor.CurrentValue <= 0)
+                {
+                    cpdValue = 0;
+                }
+                else
+                {
+                    cpdValue = 1;
+                }
+            }
+
+            if (@sensor is BatteryVoltageDetector)
+            {
+                <p style="text-align: right"><strong>Battery Voltage</strong> <span id="BV_@sensor.UUID" class="label label-primary">@(((BatteryVoltageDetector)sensor).CurrentValue) @sensor.UnitName</span></p>
+            }
+            if (@sensor is ACPresenceDetector)
+            {
+                if (@sensor.CurrentValue <= 0)
+                {
+                    <p style="text-align: right"><strong>Main Power</strong> <span id="ACP_@sensor.UUID" class="label label-danger">Off</span></p>
+                }
+                else
+                {
+                    <p style="text-align: right"><strong>Main Power</strong> <span id="ACP_@sensor.UUID" class="label label-success">On</span></p>
+                }
+            }
+
+            if (@sensor is EnergySensor)
+            {
+                if (@ViewBag.MotorDataList[0].MotorStatus == "OFF")
+                {
+                    <p style="text-align: right"><strong>Power</strong> <span id="ETQ_@sensor.UUID" class="label label-primary">0 kw</span></p>
+
+                }
+                else
+                {
+                    <p style="text-align: right"><strong>Power</strong> <span id="ETQ_@sensor.UUID" class="label label-primary">@((((EnergySensor)sensor).KwPerHourValue)) kw</span></p>
+
+                }
+                <p style="text-align: right"><strong>Energy(C)</strong> <span id="ETC_@sensor.UUID" class="label label-primary">@(((EnergySensor)sensor).CumulativeValue) kw-hr</span></p>
+            }
+        }
+    </div>
+
+    <div id="motorInfo" style="padding-left: 10px; margin-left: 200px; text-align: right; position: absolute; margin-top: -280px; width: 180px;" class="grad">
+        <h4 style="text-align: left">Pump Motor </h4>
+
+        @for (int i = 0; i < @ViewBag.MotorDataList.Count; i++)
+        {
+
+            if (@ViewBag.MotorDataList[i] != null && i == 0)
+            {
+                <p style="margin-bottom: 2px;">
+                    <strong>Motor Status</strong>
+                    @if (@ViewBag.MotorDataList[i].MotorStatus == "ON")
+                    {
+                        <span id="motorswitch" class="label label-success">ON</span>
+                    }
+                    else
+                    {
+                        <span id="motorswitch" class="label label-danger">OFF</span>
+                    }
+                    <br />
+                    <span id="motorswitchStatus"></span>
+
+                </p>
+            }
+            if (@ViewBag.MotorDataList[i] != null && i == 0)
+            {
+                <p style="margin-bottom: 2px; margin-top: 15px;" id="pautoarea">
+                    <strong>Mode</strong>
+                    @{string autoValue = (ViewBag.MotorDataList[i].Auto) ? "Auto" : "Manual";}
+                    <span id="pmotorAuto" class="label label-primary ">@autoValue</span>
+                </p>
+                <p style="margin-bottom: 2px; width: 150px; /* border: groove; */border-bottom: groove; padding-bottom: 5px; border-top: groove; margin-top: 10px;">
+                    <strong>Last Command time</strong>
+
+
+                    <span id="pmotorCommandTime" class="label label-primary dateTimeSpan">@ViewBag.MotorDataList[i].LastCommandTime</span>
+                </p>
+            }
+
+            if (@ViewBag.MotorDataList[i] != null && i == 1)
+            {
+                <h4 style="text-align: left;">Chlorine System</h4>
+
+
+                if (@ViewBag.MotorDataList[i].MotorStatus == "ON")
+                {
+                    <p style="margin-bottom: 2px;"><strong>Chlorin Motor</strong> <span id="cmotorswitch" class="label label-success">ON</span></p>
+
+                }
+                else
+                {
+                    <p style="margin-bottom: 2px;"><strong>Chlorin Motor</strong> <span id="cmotorswitch" class="label label-danger">OFF</span></p>
+
+                }
+                <br />
+                if (@cpdValue == 1)
+                {
+                    <p style="margin-bottom: 2px;"><strong>Chlorin Presence</strong> <span class="label label-success">ON</span></p>
+
+                }
+                else
+                {
+                    <p style="margin-bottom: 2px;"><strong>Chlorin Presence</strong> <span class="label label-danger">OFF</span></p>
+
+                    }
+                }
+            }
+    </div>
+
+    <div style="margin-left: 190px; position: absolute; margin-top: -518px;">
+        @foreach (var sensor in Model)
+        {
+            if (@sensor is PressureSensor)
+            {
+                <p><strong>PT-</strong> <span id="PT_@sensor.UUID" class="label label-primary"> @sensor.CurrentValue Bar</span></p>
+            }
+        }
+    </div>
+
+    <div style="margin-left: 476px; position: absolute; margin-top: -162px;">
+        @foreach (var sensor in Model)
+        {
+            if (@sensor is LevelSensor)
+            {
+                <p><strong>LT-</strong> <span id="LT_@sensor.UUID" class="label label-primary"> @sensor.CurrentValue Metre</span></p>
+                <p id="ltvalue" style="display: none;">@sensor.CurrentValue</p>
+            }
+        }
+    </div>
+    <div id="waterlevel" style="background-color: transparent; position: absolute; margin-top: -265px; margin-left: 404px; height: 135px; width: 56px"></div>
+
+    <div style="margin-left: 350px; position: absolute; margin-top: -515px;">
+        @foreach (var sensor in Model)
+        {
+            if (@sensor is FlowSensor)
+            {
+        <p>
+            <strong>Flow Rate</strong> <span id="FTQ_@sensor.UUID" class="label label-primary"> @(((FlowSensor)sensor).LitrePerMinuteValue ) m3/h</span>
+            <br /><br/>
+            <strong>Flow Rate</strong> <span id="FTR_@sensor.UUID" class="label label-primary"> @(Math.Round((((FlowSensor)sensor).LitrePerMinuteValue / 60) * 1000, 2) ) litre/minute</span>
+            <br /><br />
+            <strong>Water Meter</strong> <span id="FTC_@sensor.UUID" class="label label-primary"> @(((FlowSensor)sensor).CumulativeValue ) m3</span>
+        </p>
+            }
+        }    
+    </div>
+    <div class="grad scada-power-info">
+        <h4 class="text-center"><strong>VFD and Motor Status</strong></h4>
+        <p><span style="text-align: left"><strong>Motor Voltage</strong> </span> <span class="pull-right label label-primary"> <span id="Vfd_voltage">@ViewBag.VfdData.Voltage</span>&nbsp;V</span></p>
+        <p><span style="text-align: left"><strong>Motor Current(IRMS)</strong> </span> <span class="pull-right label label-primary"> <span id="Vfd_current">@ViewBag.VfdData.Current</span>&nbsp;A</span></p>
+        <p><span style="text-align: left"><strong>Motor Frequency</strong> </span> <span class="pull-right label label-primary"> <span id="Vfd_frequency">@ViewBag.VfdData.Frequency</span>&nbsp;Hz</span></p>
+        <p><span style="text-align: left"><strong>Motor Power</strong> </span> <span class="pull-right label label-primary"> <span id="Vfd_power">@ViewBag.VfdData.Power</span>&nbsp;kW</span></p>
+        <p><span style="text-align: left"><strong>Energy Consumed</strong> </span> <span class="pull-right label label-primary"> <span id="Vfd_energy">@ViewBag.VfdData.Energy</span>&nbsp;kWh</span></p>
+        <p><span style="text-align: left"><strong>VFD Op. Hour</strong> </span> <span class="pull-right label label-primary"> <span id="Vfd_oh">@ViewBag.VfdData.OperatingHour</span>&nbsp;Hour</span></p>
+        <p><span style="text-align: left"><strong>Motor Run. Hour</strong> </span> <span class="pull-right label label-primary"> <span id="Vfd_rh">@ViewBag.VfdData.RunningHour</span>&nbsp;Hour</span></p>
+        <div><div class="pull-left"></div><div class="pull-right"><button class="btn btn-primary" onclick="setFrequency()">Change</button></div></div>
+        <p></p>
+    </div>
+</div>
+
+
+<div class="modal fade" id="chartModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Live Chart</h4>
+            </div>
+            <div class="modal-body" style="padding: 0px !important;">
+                <div>
+                    <div id="chart_div">
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<div class="modal fade" id="frequencyShowModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Set Frequency</h4>
+            </div>
+            <div class="modal-body" style="padding: 0px !important;">
+                <div>
+                    <div>
+                        <div class="slidecontainer">
+                            <input type="range" min="0.00" max="50.00" step="0.1" value="0.5" class="slider" onchange="showNewFrequencyValueViaSlider()" id="vfdFrequencyRange">
+                            
+                        </div>
+                        <div class="slidecontainer">
+                            <input type="text" id="frequencyValue" onchange="showNewFrequencyValueViaTextBox()"/>
+                        </div>
+                        <div>
+                            <span class="danger" id="setFrequencyError"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" onclick="publishVfdFrequency()">Set</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<span id="pmotorCommandSent" style="visibility:hidden"></span>
+<script src="~/Scripts/PostLoadedScada.js"></script>
+
+
+
+

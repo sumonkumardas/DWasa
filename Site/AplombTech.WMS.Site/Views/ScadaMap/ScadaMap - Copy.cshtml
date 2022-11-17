@@ -1,0 +1,135 @@
+﻿@using AplombTech.WMS.QueryModel.Reports
+@using AplombTech.WMS.QueryModel.Sensors
+@model AplombTech.WMS.QueryModel.Shared.ScadaViewModel
+
+<div id="imgContainer">
+    <img src="../../Images/scadamap.png" class="img" alt="Scada map">
+    <div style="margin-left: 110px; position: absolute; margin-top: -320px;">
+        <h4>General Information</h4>
+        @foreach (var sensor in Model.SensorList)
+        {
+            if (@sensor is ChlorinePresenceDetector)
+            {
+                if (@sensor.CurrentValue <= 0)
+                {
+                    <p>Cholorination Off</p>
+                }
+                else
+                {
+                    <p>Cholorination On</p>
+                }
+            }
+            if (@sensor is BatteryVoltageDetector)
+            {
+                <p>BV = @(((BatteryVoltageDetector)sensor).CurrentValue) @sensor.UnitName</p>
+            }
+            if (@sensor is ACPresenceDetector)
+            {
+                <p>ET = @(((ACPresenceDetector)sensor).CurrentValue) kw/h</p>
+            }
+
+            if (@sensor is EnergySensor)
+            {
+                <p>ET = @(((EnergySensor)sensor).CumulativeValue) kw/h</p>
+            }
+
+
+        }
+
+        @for (int i = 0; i < Model.MotorDataList.Count; i++)
+        {
+            if (Model.MotorDataList[i] != null && i == 0)
+            {
+                <h5>Pump Motor </h5>
+                <p>Motor Status = @Model.MotorDataList[i].MotorStatus</p>
+                <p>Last Command time= @Model.MotorDataList[i].LastCommandTime</p>
+                <input type="checkbox" checked="true" class="probeProbe" />
+            }
+
+            if (Model.MotorDataList[i] != null && i == 1)
+            {
+                <h5>Cholorine Motor Motor </h5>
+                <p>Motor Status = @Model.MotorDataList[i].MotorStatus</p>
+                <p>Last Command time= @Model.MotorDataList[i].LastCommandTime</p>
+            }
+
+
+        }
+    </div>
+
+    <div style="margin-left: 220px; position: absolute; margin-top: -620px;">
+        @foreach (var sensor in Model)
+        {
+            if (@sensor is PressureSensor)
+            {
+        <p>PT = @sensor.CurrentValue Bar</p>
+            }
+        }
+    </div>
+
+    <div style="margin-left: 660px; position: absolute; margin-top: -250px;">
+        @foreach (var sensor in Model)
+        {
+            if (@sensor is LevelSensor)
+            {
+        <p>LT = @sensor.CurrentValue Metre</p>
+        <p id="ltvalue" style="display: none;">@sensor.CurrentValue</p>
+            }
+        }
+    </div>
+    <div id="waterlevel" style="background-color: transparent; position: absolute; margin-top: -310px; margin-left: 452px; height: 135px; width: 63px"></div>
+
+    <div style="margin-left: 400px; position: absolute; margin-top: -620px;">
+        @foreach (var sensor in Model)
+        {
+            if (@sensor is FlowSensor)
+            {
+        <p>FT = @(((FlowSensor) sensor).CumulativeValue) Metre</p>
+            }
+        }
+    </div>
+
+</div>
+
+<script>
+    var unit = parseInt($('#ltvalue').text());
+    var height = parseInt($('#waterlevel').css('height'));
+    var margin = parseInt($('#waterlevel').css('margin-top'));
+    $("#waterlevel").css("background-color", "#2fcff4");
+    $("#waterlevel").css("height", height - (100 - (1.35 * unit)) + "px");
+    $("#waterlevel").css("margin-top", margin + (100 - (1.35 * unit)) + "px");
+
+    $(".probeProbe").change(function () {
+        var state = null;
+        if ($('#checkMeOut').prop('checked')) {
+            state = "OFF";
+        } else
+            state = "ON";
+        $.ajax({
+            type: "POST",
+            url: '/ScadaMap/PublishMessage',
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify({ state: state }),
+            dataType: "json",
+            success:
+                function (data) {
+                    if (data.IsSuccess) {
+                        if (data.Data == '') {
+                            alert('Success');
+                        } else {
+                            alert('failure');
+                        }
+
+                    } else {
+                        alert('unsuccessfull');
+
+                    }
+                },
+            error: function (e) {
+                alert(e);
+            }
+        });
+    });
+
+
+</script>

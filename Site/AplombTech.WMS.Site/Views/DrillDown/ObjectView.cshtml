@@ -1,0 +1,83 @@
+@using NakedObjects.Facade.Utility;
+@using NakedObjects.Web.Mvc.Html
+@using AplombTech.WMS.QueryModel.Reports
+@model DrillDown
+@{
+    var days = new List<SelectListItem>();
+    for (var i = 1; i <= 31; i++)
+    {
+        days.Add(new SelectListItem { Text = i.ToString(), Value = i.ToString(), Selected = Model.Day == i });
+    }
+    var years = new List<SelectListItem>();
+    for (var i = 2016; i <= 2019; i++)
+    {
+        years.Add(new SelectListItem { Text = i.ToString(), Value = i.ToString(), Selected = Model.Year == i });
+    }
+
+    var weeks = new List<SelectListItem>();
+    for (var i = 1; i <= 52; i++)
+    {
+        weeks.Add(new SelectListItem { Text = i.ToString(), Value = i.ToString(), Selected = Model.Week == i });
+    }
+
+    var hours = new List<SelectListItem>();
+    for (var i = 1; i <= 24; i++)
+    {
+        hours.Add(new SelectListItem { Text = i.ToString(), Value = i.ToString(), Selected = Model.Hour == i });
+    }
+}
+<div id="body">
+    <section class="main-content">
+        @(Html.TabbedHistory(Model))
+        <br />
+
+        <div class="col-md-offset-1">
+            @using (Html.BeginForm("ExportToExcel", "DrillDown", FormMethod.Post))
+            {
+                @Html.DropDownListFor(model => model.SelectedPumpStationId, new SelectList(
+                    Model.PumpStations,
+                    "AreaID",
+                    "Name",
+                    Model.SelectedPumpStationId), "Select Pump Station", new { @onchange = "drillDownModule.LoadSensor(this.value)" })
+                <span class="validation-red" id="pumpstationvalid"></span>
+                @Html.EnumDropDownListFor(m => m.ReportType, "- Select Report Type -",new { @onchange = "drillDownModule.ChangeReportType()" })
+                <span class="validation-red" id="reporttypevalid"></span>
+                @*@Html.EnumDropDownListFor(m => m.TransmeType, "- Select Sensor -")*@
+                @Html.DropDownListFor(model => model.SelectedSensor.SensorId, new SelectList(
+                Enumerable.Empty<SelectListItem>(),
+                "SensorID",
+                "Name",
+                Model.SelectedSensor.SensorId), "- Select Sensor -",new { @onchange = "drillDownModule.ChangeSensor()"})
+                <span class="validation-red" id="sensorvalid"></span>
+
+
+                    <div id="inputPanel">
+
+                        @Html.DropDownListFor(model => model.Year, years, "- Select Year -", new { @onchange = "drillDownModule.ChangeYear()" })
+                        <span class="validation-red" id="yearvalid"></span>
+                        @Html.EnumDropDownListFor(m => m.Month, "- Select Month -", new { @onchange = "drillDownModule.ChangeMonth()" })
+                        <span class="validation-red" id="monthvalid"></span>
+                        @Html.DropDownListFor(model => model.Week, weeks, "- Select Week -", new { @onchange = "drillDownModule.ChangeWeek()" })
+                        <span class="validation-red" id="weekvalid"></span>
+                        @Html.DropDownListFor(model => model.Day, days, "- Select Day -", new { @onchange = "drillDownModule.ChangeDay()" })
+                        <span class="validation-red" id="dayvalid"></span>
+                        @Html.DropDownListFor(model => model.Hour, hours, "- Select Hour -", new { @onchange = "drillDownModule.ChangeHour()" })
+                        <span class="validation-red" id="hourvalid"></span>
+                    </div>
+                    <input type="button" id="show" value="Show" onclick="drillDownModule.ShowReport(this)" class="btn btn-default" />
+                    <input type="submit" id="exp" value="Export" onclick="drillDownModule.ExportData()" class="btn btn-default" />
+            }
+        </div>
+        <br />
+        <div id="chart_div"></div>
+        <div id="chartContainer" style="height: 300px; width:100%;">
+        </div>
+        @Scripts.Render("~/bundles/report")
+    </section>
+</div>
+
+@section Scripts{
+
+}
+
+

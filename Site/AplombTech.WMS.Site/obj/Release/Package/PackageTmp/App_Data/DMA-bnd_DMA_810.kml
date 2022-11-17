@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="OGRGeoJSON" id="OGRGeoJSON">
+	<SimpleField name="_isDeleted" type="int"></SimpleField>
+	<SimpleField name="ID" type="string"></SimpleField>
+	<SimpleField name="AREA_M2" type="string"></SimpleField>
+	<SimpleField name="THANA" type="string"></SimpleField>
+	<SimpleField name="ZONE" type="string"></SimpleField>
+	<SimpleField name="LOCATION" type="string"></SimpleField>
+	<SimpleField name="DENSITY_20" type="string"></SimpleField>
+	<SimpleField name="DENSITY_21" type="string"></SimpleField>
+	<SimpleField name="POP_2010" type="string"></SimpleField>
+	<SimpleField name="POP_2030" type="string"></SimpleField>
+	<SimpleField name="NET_DEMAND" type="string"></SimpleField>
+	<SimpleField name="NET_DEMA_1" type="string"></SimpleField>
+	<SimpleField name="PEAK_DEMAN" type="string"></SimpleField>
+	<SimpleField name="PEAK_DEM_1" type="string"></SimpleField>
+	<SimpleField name="LOSS_2010" type="string"></SimpleField>
+	<SimpleField name="LOSS_2030" type="string"></SimpleField>
+	<SimpleField name="TOTAL_DEMA" type="string"></SimpleField>
+	<SimpleField name="TOTAL_DE_1" type="string"></SimpleField>
+	<SimpleField name="ZPOP_NTKAR" type="string"></SimpleField>
+	<SimpleField name="ZPOP_NTK_1" type="string"></SimpleField>
+	<SimpleField name="REMARK_201" type="string"></SimpleField>
+	<SimpleField name="REMARK_203" type="string"></SimpleField>
+	<SimpleField name="PRESSURE" type="string"></SimpleField>
+	<SimpleField name="TARGET_DMA" type="string"></SimpleField>
+	<SimpleField name="BASE_DEMAN" type="string"></SimpleField>
+</Schema>
+<Folder><name>OGRGeoJSON</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="_isDeleted">0</SimpleData>
+		<SimpleData name="ID">810</SimpleData>
+		<SimpleData name="AREA_M2">679101</SimpleData>
+		<SimpleData name="THANA">Gulshan, Badda</SimpleData>
+		<SimpleData name="ZONE">8</SimpleData>
+		<SimpleData name="LOCATION">Baridhara, Nayanagar, Jagannathpur</SimpleData>
+		<SimpleData name="DENSITY_20">0</SimpleData>
+		<SimpleData name="DENSITY_21">0</SimpleData>
+		<SimpleData name="POP_2010">0</SimpleData>
+		<SimpleData name="POP_2030">0</SimpleData>
+		<SimpleData name="NET_DEMAND">0</SimpleData>
+		<SimpleData name="NET_DEMA_1">0</SimpleData>
+		<SimpleData name="PEAK_DEMAN">0</SimpleData>
+		<SimpleData name="PEAK_DEM_1">0</SimpleData>
+		<SimpleData name="LOSS_2010">0</SimpleData>
+		<SimpleData name="LOSS_2030">0</SimpleData>
+		<SimpleData name="TOTAL_DEMA">0</SimpleData>
+		<SimpleData name="TOTAL_DE_1">0</SimpleData>
+		<SimpleData name="ZPOP_NTKAR">0.00</SimpleData>
+		<SimpleData name="ZPOP_NTK_1">0.00</SimpleData>
+		<SimpleData name="REMARK_201"></SimpleData>
+		<SimpleData name="REMARK_203"></SimpleData>
+		<SimpleData name="PRESSURE">DMA</SimpleData>
+		<SimpleData name="TARGET_DMA">P2</SimpleData>
+		<SimpleData name="BASE_DEMAN">100</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>90.41552734375,23.806289672851562 90.416259765625,23.806793212890625 90.4183349609375,23.807479858398438 90.41864013671875,23.807968139648438 90.4190673828125,23.808380126953125 90.419677734375,23.80877685546875 90.42083740234375,23.809249877929688 90.4212646484375,23.809249877929688 90.42138671875,23.808547973632812 90.4215087890625,23.807479858398438 90.4217529296875,23.805908203125 90.42193603515625,23.805068969726562 90.422119140625,23.804290771484375 90.4222412109375,23.803558349609375 90.42236328125,23.802978515625 90.42254638671875,23.802322387695312 90.42279052734375,23.800918579101562 90.42303466796875,23.79962158203125 90.42327880859375,23.798568725585938 90.4234619140625,23.797576904296875 90.4224853515625,23.79742431640625 90.4210205078125,23.797012329101562 90.4195556640625,23.796463012695312 90.41876220703125,23.796142578125 90.41815185546875,23.796722412109375 90.41754150390625,23.797805786132812 90.41748046875,23.79888916015625 90.41748046875,23.80047607421875 90.41754150390625,23.80206298828125 90.4173583984375,23.802947998046875 90.4171142578125,23.803848266601562 90.41668701171875,23.805023193359375 90.416259765625,23.805679321289062 90.41552734375,23.806289672851562</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

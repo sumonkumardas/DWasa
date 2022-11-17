@@ -1,0 +1,10 @@
+F:\source\DotNet\Wasa\wms\WMS_VS2015_NO\AplombTech.WMS\Infrastructure\AplombTech.WMS.Utility\bin\Release\AplombTech.WMS.Utility.dll
+F:\source\DotNet\Wasa\wms\WMS_VS2015_NO\AplombTech.WMS\Infrastructure\AplombTech.WMS.Utility\bin\Release\AplombTech.WMS.Utility.pdb
+F:\source\DotNet\Wasa\wms\WMS_VS2015_NO\AplombTech.WMS\Infrastructure\AplombTech.WMS.Utility\obj\Release\AplombTech.WMS.Utility.dll
+F:\source\DotNet\Wasa\wms\WMS_VS2015_NO\AplombTech.WMS\Infrastructure\AplombTech.WMS.Utility\obj\Release\AplombTech.WMS.Utility.pdb
+C:\wasa\AplombTech.WMS_Feb27-2019_New\AplombTech.WMS\Infrastructure\AplombTech.WMS.Utility\bin\Release\AplombTech.WMS.Utility.dll
+C:\wasa\AplombTech.WMS_Feb27-2019_New\AplombTech.WMS\Infrastructure\AplombTech.WMS.Utility\bin\Release\AplombTech.WMS.Utility.pdb
+C:\wasa\AplombTech.WMS_Feb27-2019_New\AplombTech.WMS\Infrastructure\AplombTech.WMS.Utility\obj\Release\AplombTech.WMS.Utility.csprojAssemblyReference.cache
+C:\wasa\AplombTech.WMS_Feb27-2019_New\AplombTech.WMS\Infrastructure\AplombTech.WMS.Utility\obj\Release\AplombTech.WMS.Utility.csproj.CoreCompileInputs.cache
+C:\wasa\AplombTech.WMS_Feb27-2019_New\AplombTech.WMS\Infrastructure\AplombTech.WMS.Utility\obj\Release\AplombTech.WMS.Utility.dll
+C:\wasa\AplombTech.WMS_Feb27-2019_New\AplombTech.WMS\Infrastructure\AplombTech.WMS.Utility\obj\Release\AplombTech.WMS.Utility.pdb

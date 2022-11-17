@@ -1,0 +1,38 @@
+@using NakedObjects.Facade.Utility;
+@using NakedObjects.Web.Mvc.Html
+@using AplombTech.WMS.QueryModel.Reports
+@model MotorOnOff
+
+<div id="body">
+    <section class="main-content">
+        <br />
+
+        <div class="col-md-offset-1">
+            @using (Html.BeginForm("ExportToExcel", "DrillDown", FormMethod.Post))
+            {
+                @Html.DropDownListFor(model => model.SelectedPumpStationId, new SelectList(
+                    Model.PumpStations,
+                    "AreaID",
+                    "Name",
+                    Model.SelectedPumpStationId), "Select Pump Station", new { @onchange = "drillDownModule.LoadSensor(this.value)" })
+                <span class="validation-red" id="pumpstationvalid"></span>
+                @Html.TextBoxFor(m => m.FromDateTime, "{0:yyyy-MM-ddThh:mm:ss}", new { type = "datetime-local", id = "motorOnOffStartDate" })
+                <span class="validation-red" id="startdatevalid"></span>
+                @Html.TextBoxFor(m => m.EndDateTime, "{0:yyyy-MM-ddThh:mm:ss}", new { type = "datetime-local",id="motorOnOffEndDate" })
+                <input type="button" id="show" value="Show" onclick="drillDownModule.ShowReport(this)" class="btn btn-default" />
+                <input type="submit" id="exp" value="Export" onclick="drillDownModule.ExportData()" class="btn btn-default" />
+            }
+        </div>
+        <br />
+        <div id="chart_div">Under construction</div>
+        <div id="chartContainer" style="height: 300px; width:100%;">
+        </div>
+        @Scripts.Render("~/bundles/report")
+    </section>
+</div>
+
+@section Scripts{
+
+}
+
+

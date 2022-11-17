@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C0064388-708A-4AC4-B24F-A31E224B44A5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AplombTech.WMS.MQTT.WindowsService</RootNamespace>
+    <AssemblyName>AplombTech.WMS.MQTT.WindowsService</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>F:\Ash6\wasaService\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>BCD9D2CEABD7297CFEB870C211EC6DA244052C71</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>AplombTech.WMS.MQTT.WindowsService_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\..\..\lib\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="M2Mqtt.Net, Version=4.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\M2Mqtt.4.3.0.0\lib\net45\M2Mqtt.Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NServiceBus.Core">
+      <HintPath>..\..\..\lib\NServiceBus.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Log.cs" />
+    <Compile Include="MqttClientService.cs" />
+    <Compile Include="ProjectInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProjectInstaller.Designer.cs">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resource.Designer.cs">
+      <DependentUpon>Resource.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ServiceBus.cs" />
+    <Compile Include="WmsMqttService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WmsMqttService.Designer.cs">
+      <DependentUpon>WmsMqttService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AplombTech.WMS.MQTT.WindowsService_TemporaryKey.pfx" />
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Resources\ca.crt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Log\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ProjectInstaller.resx">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\AplombTech.WMS.SensorDataLogBoundedContext\AplombTech.WMS.SensorDataLogBoundedContext.csproj">
+      <Project>{9d625f54-bae9-49e7-bc05-cfba1af7e20c}</Project>
+      <Name>AplombTech.WMS.SensorDataLogBoundedContext</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Domain\AplombTech.WMS.AreaRepositories\AplombTech.WMS.AreaRepositories.csproj">
+      <Project>{a0482800-36f9-4192-a158-925987761bc9}</Project>
+      <Name>AplombTech.WMS.AreaRepositories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Domain\AplombTech.WMS.DataProcessRepository\AplombTech.WMS.DataProcessRepository.csproj">
+      <Project>{b1b97161-49e8-4d58-87fc-148dd42f9e37}</Project>
+      <Name>AplombTech.WMS.DataProcessRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Domain\AplombTech.WMS.DomainClasses\AplombTech.WMS.DomainClasses.csproj">
+      <Project>{c2a6f489-7c45-4d49-9c71-7aac936bc724}</Project>
+      <Name>AplombTech.WMS.DomainClasses</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Infrastructure\AplombTech.WMS.AreaBoundedContext\AplombTech.WMS.AreaBoundedContext.csproj">
+      <Project>{89d6ed8f-8011-4e5a-b0d7-5dcb9f629351}</Project>
+      <Name>AplombTech.WMS.AreaBoundedContext</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Infrastructure\AplombTech.WMS.BaseDataLayer\AplombTech.WMS.BaseDataLayer.csproj">
+      <Project>{19f6b495-cac3-4467-a109-90452c77cc14}</Project>
+      <Name>AplombTech.WMS.BaseDataLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Infrastructure\AplombTech.WMS.CompanyDatabase\AplombTech.WMS.CompanyDatabase.csproj">
+      <Project>{34aea7a5-d0df-46f6-8893-458cfbc72f72}</Project>
+      <Name>AplombTech.WMS.CompanyDatabase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Infrastructure\AplombTech.WMS.DataProcessBoundedContext\AplombTech.WMS.DataProcessBoundedContext.csproj">
+      <Project>{0ca2e7b3-b0aa-4e15-aec8-6eced946bbf7}</Project>
+      <Name>AplombTech.WMS.DataProcessBoundedContext</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Infrastructure\AplombTech.WMS.JsonParser\AplombTech.WMS.JsonParser.csproj">
+      <Project>{d64fe817-7a39-455e-aa81-ac8201659990}</Project>
+      <Name>AplombTech.WMS.JsonParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Infrastructure\AplombTech.WMS.Messages\AplombTech.WMS.Messages.csproj">
+      <Project>{5104d6f2-54a9-4c43-b49d-84fa2a4f7cc0}</Project>
+      <Name>AplombTech.WMS.Messages</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Infrastructure\AplombTech.WMS.Persistence\AplombTech.WMS.Persistence.csproj">
+      <Project>{07383ccc-b5ab-499d-ac1c-25bfa183c9b3}</Project>
+      <Name>AplombTech.WMS.Persistence</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Infrastructure\AplombTech.WMS.Utility.Db\AplombTech.WMS.Utility.Db.csproj">
+      <Project>{02331e59-5ad0-45f3-8cce-308125d6bb14}</Project>
+      <Name>AplombTech.WMS.Utility.Db</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Infrastructure\AplombTech.WMS.Utility.NakedObjects\AplombTech.WMS.Utility.NakedObjects.csproj">
+      <Project>{79a83dc9-f113-437a-972c-fb42b59798a3}</Project>
+      <Name>AplombTech.WMS.Utility.NakedObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Infrastructure\AplombTech.WMS.Utility\AplombTech.WMS.Utility.csproj">
+      <Project>{52ea4cb2-2fe4-44af-a638-4b1a1f9786ef}</Project>
+      <Name>AplombTech.WMS.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AplombTech.WMS.MQTT.Data.Processor\AplombTech.WMS.MQTT.Data.Processor.csproj">
+      <Project>{6c9485ae-3e5a-4a1e-bd6c-8964a478e611}</Project>
+      <Name>AplombTech.WMS.MQTT.Data.Processor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

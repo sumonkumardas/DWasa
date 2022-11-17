@@ -1,0 +1,22 @@
+2018-09-30 11:44:58,587 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-09-30 11:47:20,051 [11] INFO AplombTech.MQTTLib.MqttClientWrapper - Published called!
+2018-09-30 11:47:20,862 [16] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Published to topic True
+2018-09-30 11:52:37,524 [39] INFO AplombTech.MQTTLib.MqttClientWrapper - Published called!
+2018-09-30 11:52:38,423 [16] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Published to topic True
+2018-09-30 12:01:19,014 [53] INFO AplombTech.MQTTLib.MqttClientWrapper - Published called!
+2018-09-30 12:01:19,836 [16] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Published to topic True
+2018-09-30 12:36:04,383 [1] INFO AplombTech.MQTTLib.MqttClientWrapper - Broker Connection successful
+2018-09-30 12:54:39,833 [27] INFO AplombTech.MQTTLib.MqttClientWrapper - Published called!
+2018-09-30 12:54:40,627 [15] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Published to topic True
+2018-09-30 13:01:43,253 [11] INFO AplombTech.MQTTLib.MqttClientWrapper - Published called!
+2018-09-30 13:01:44,067 [15] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Published to topic True
+2018-09-30 13:08:56,783 [27] INFO AplombTech.MQTTLib.MqttClientWrapper - Published called!
+2018-09-30 13:08:57,576 [15] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Published to topic True
+2018-09-30 13:18:38,896 [25] INFO AplombTech.MQTTLib.MqttClientWrapper - Published called!
+2018-09-30 13:18:39,706 [15] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Published to topic True
+2018-09-30 13:21:07,697 [21] INFO AplombTech.MQTTLib.MqttClientWrapper - Published called!
+2018-09-30 13:21:08,496 [15] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Published to topic True
+2018-09-30 13:25:45,096 [21] INFO AplombTech.MQTTLib.MqttClientWrapper - Published called!
+2018-09-30 13:25:45,928 [15] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Published to topic True
+2018-09-30 13:29:45,380 [23] INFO AplombTech.MQTTLib.MqttClientWrapper - Published called!
+2018-09-30 13:29:46,197 [15] INFO AplombTech.MQTTLib.MqttClientWrapper - Mqtt-Msg-Published to topic True

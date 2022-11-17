@@ -1,0 +1,105 @@
+
+TOPIC : configuration
+
+Json string for Configuration Receive
+{
+  "PumpStation":{
+     "PumoStation_Id": "1",
+    "ConfigureDateTime":"1/1/2015 22.00 AM",
+    "Camera": [
+      {
+        "uid": "ABC",
+        "name": "Griffin",
+        "url":""
+      },
+      {
+        "uid": "ABC",
+        "name": "Nikon",
+        "url":""
+      }
+    ],
+    "Pump": 
+      {
+        "uid": "ABC",
+        "name": "WaterPump"
+      },
+    "Router": [
+      {
+        "mac_id": "Prolink",
+        "name": "Griffin",
+        "ip":"",
+        "port":""
+      },
+      {
+        "mac_id": "TPLink",
+        "name": "Nikon",
+        "ip":"",
+        "port":""
+      }
+    ],
+    "Sensor": [
+      {
+        "uid": "ABC",
+        "type": "FT"
+      },
+      {
+        "uid": "ABC",
+        "type": "LT"
+      },
+      {
+        "uid": "ABC",
+        "type": "PT"
+      },
+      {
+        "uid": "ABC",
+        "type": "EM"
+      },
+      {
+        "uid": "ABC",
+        "type": "CT"
+      }
+    ]
+    
+   
+  }
+  
+}
+
+
+TOPIC : sensordata
+
+Json string for Data Receive
+
+
+{
+  "PumpStation":{
+     "PumoStation_Id": "1",
+    "LogDateTime":"1/1/2015 22.00 AM",
+  
+    "Sensor": [
+      {
+        "uid": "ABC",
+        "value":""
+      },
+      {
+        "uid": "ABC",
+        "value":""
+      },
+      {
+        "uid": "ABC",
+        "value":""
+      },
+      {
+        "uid": "ABC",
+        "value":""
+      },
+      {
+        "uid": "ABC",
+        "value":""
+      }
+    ]
+    
+   
+  }
+  
+}
